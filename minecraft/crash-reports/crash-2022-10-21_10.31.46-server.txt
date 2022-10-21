@@ -1,0 +1,575 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2022-10-21 10:31:46
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'confabricate'!
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at fudge.notenoughcrashes.fabric.mixinhandlers.ModLoaders.fabricEntrypoints(ModLoaders.java:9)
+	at net.minecraft.class_310.redirect$fng000$catchFabricInit(class_310.java:27954)
+	at net.minecraft.class_310.<init>(class_310.java:459)
+	at net.minecraft.client.main.Main.method_44604(Main.java:205)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.prismlauncher.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104)
+	at org.prismlauncher.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:176)
+	at org.prismlauncher.impl.OneSixLauncher.launch(OneSixLauncher.java:186)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:144)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:74)
+Caused by: java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[minecraft:worldgen/biome / galosphere:crystal_canyons]' from registry Registry[ResourceKey[minecraft:root / minecraft:worldgen/biome] (Stable)]
+	at net.minecraft.class_6880$class_6883.comp_349(class_6880.java:159)
+	at com.google.common.collect.Maps$9.transformEntry(Maps.java:2053)
+	at com.google.common.collect.Maps$12.getValue(Maps.java:2101)
+	at net.minecraft.class_5455.method_31141(class_5455.java:279)
+	at net.minecraft.class_5455.method_40314(class_5455.java:266)
+	at net.minecraft.class_5455.method_40327(class_5455.java:287)
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+	at ca.stellardrift.confabricate.typeserializers.MinecraftSerializers.registerRegistry(MinecraftSerializers.java:325)
+	at ca.stellardrift.confabricate.typeserializers.MinecraftSerializers.populate(MinecraftSerializers.java:244)
+	at ca.stellardrift.confabricate.typeserializers.MinecraftSerializers.collection(MinecraftSerializers.java:197)
+	at ca.stellardrift.confabricate.Confabricate.onInitialize(Confabricate.java:97)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
+	... 17 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+Mixins in Stacktrace: None found
+
+-- Initialization --
+Details:
+Stacktrace:
+	at fudge.notenoughcrashes.mixinhandlers.EntryPointCatcher.handleEntryPointError(EntryPointCatcher.java:28)
+	at net.minecraft.class_310.redirect$fng000$catchFabricInit(class_310.java:27956)
+	at net.minecraft.class_310.<init>(class_310.java:459)
+	at net.minecraft.client.main.Main.method_44604(Main.java:205)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.prismlauncher.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104)
+	at org.prismlauncher.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:176)
+	at org.prismlauncher.impl.OneSixLauncher.launch(OneSixLauncher.java:186)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:144)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:74)
+Mixins in Stacktrace:
+	net.minecraft.class_310:
+		org.betterx.bclib.mixin.client.MinecraftMixin (bclib.mixins.client.json)
+		org.betterx.betternether.mixin.client.MinecraftClientMixin (betternether.mixins.client.json)
+		net.fabricmc.fabric.mixin.registry.sync.client.MinecraftClientMixin (fabric-registry-sync-v0.client.mixins.json)
+		ca.fxco.memoryleakfix.mixin.targetEntityLeak.MinecraftClient_targetClearMixin (memoryleakfix.mixins.json)
+		com.telepathicgrunt.the_bumblezone.mixin.client.MinecraftMixin (the_bumblezone.mixins.json)
+		xaero.map.mixin.MixinMinecraftClient (xaeroworldmap.mixins.json)
+		net.blay09.mods.balm.mixin.MinecraftMixin (balm.mixins.json)
+		randommcsomethin.fallingleaves.mixin.MinecraftClientMixin (fallingleaves.mixins.json)
+		net.coderbot.iris.mixin.MixinMinecraft_Images (mixins.iris.json)
+		com.illusivesoulworks.spectrelib.mixin.SpectreLibMixinMinecraft (spectrelib.mixins.json)
+		jerozgen.languagereload.mixin.MinecraftClientAccessor (languagereload.mixins.json)
+		com.blamejared.controlling.mixin.OpenGuiMixin (controlling.fabric.mixins.json)
+		io.github.soir20.moremcmeta.fabric.client.mixin.ManagerInitializationMixin (moremcmeta.mixins.json)
+		io.wispforest.owo.mixin.MinecraftClientMixin (owo.mixins.json)
+		dev.isxander.zoomify.mixins.hooks.MinecraftClientMixin (zoomify.mixins.json)
+		xaero.pac.common.mixin.MixinMinecraft (openpartiesandclaims.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.MinecraftClientMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		net.coderbot.iris.mixin.MixinMinecraft_NoAuthInDev (mixins.iris.json)
+		net.fabricmc.fabric.mixin.datagen.client.MinecraftClientMixin (fabric-data-generation-api-v1.client.mixins.json)
+		de.keksuccino.konkrete.mixin.mixins.client.MixinMinecraft (konkrete.mixin.json)
+		net.fabricmc.fabric.mixin.event.interaction.client.MinecraftClientMixin (fabric-events-interaction-v0.client.mixins.json)
+		com.anthonyhilyard.iceberg.mixin.MinecraftMixin (iceberg.mixins.json)
+		me.flashyreese.mods.sodiumextra.mixin.gui.MinecraftClientAccessor (sodium-extra.mixins.json)
+		de.keksuccino.drippyloadingscreen.mixin.client.MixinMinecraftClient (drippyloadingscreen.mixin.json)
+		org.betterx.betterend.mixin.client.MinecraftClientMixin (betterend.mixins.client.json)
+		de.keksuccino.fancymenu.mixin.client.MixinMinecraft (fancymenu.general.mixin.json)
+		de.keksuccino.auudio.mixin.client.MixinMinecraft (auudio.mixin.json)
+		squeek.appleskin.mixin.MinecraftClientMixin (appleskin.mixins.json)
+		dev.lambdaurora.spruceui.mixin.MinecraftClientMixin (spruceui.mixins.json)
+		me.jellysquid.mods.sodium.mixin.core.MixinMinecraftClient (sodium.mixins.json)
+		net.minecraftforge.mixin.client.MinecraftMixin (forgeconfigapiport.fabric.mixins.json)
+		traben.entity_texture_features.mixin.reloading.MixinMinecraftClient (entity_texture_features-common.mixins.json)
+		potionstudios.byg.mixin.client.MixinMinecraft (byg_fabric.mixins.json)
+		dev.quantumfusion.dashloader.mixin.main.MinecraftClientMixin (dashloader.mixins.json)
+		ca.fxco.memoryleakfix.mixin.customPayloadLeak.MinecraftClient_freeBufferMixin (memoryleakfix.mixins.json)
+		fudge.notenoughcrashes.mixins.client.MixinMinecraftClient (notenoughcrashes.mixins.json)
+		draylar.omegaconfig.mixin.ClientMixin (omega-config.mixins.json)
+		io.github.kvverti.colormatic.mixin.network.MinecraftClientMixin (colormatic.mixins.json)
+		vazkii.patchouli.mixin.client.MixinMinecraft (patchouli_fabric.mixins.json)
+		dzwdz.chat_heads.mixin.MinecraftMixin (chat_heads.mixins.json)
+		fuzs.puzzleslib.mixin.client.accessor.MinecraftAccessor (puzzleslib.fabric.mixins.json)
+		net.darkhax.bookshelf.mixin.client.AccessorMinecraft (bookshelf.common.mixins.json)
+		thecsdev.betterstats.client.mixin.MinecraftClientMixin (betterstats.client.mixins.json)
+		de.maxhenkel.voicechat.mixin.MinecraftMixin (voicechat.mixins.json)
+		com.tterrag.blur.mixin.MixinMinecraftClient (mixins.blur.json)
+		dlovin.inventoryhud.mixin.PlayerMixin (inventoryhud.mixins.json)
+		io.wispforest.owo.mixin.ui.MinecraftClientMixin (owo.mixins.json)
+		net.coderbot.iris.mixin.MixinMinecraft_PipelineManagement (mixins.iris.json)
+		com.ishland.vmp.mixins.timesource.MixinMinecraftClient (vmp.mixins.json)
+		ladysnake.satin.mixin.client.event.MinecraftClientMixin (mixins.satin.client.json)
+		dev.architectury.mixin.fabric.client.MixinMinecraft (architectury.mixins.json)
+		shcm.shsupercm.fabric.citresewn.defaults.mixin.types.enchantment.MinecraftClientMixin (citresewn-defaults.mixins.json)
+		net.fabricmc.fabric.mixin.screen.MinecraftClientMixin (fabric-screen-api-v1.mixins.json)
+		zone.rong.cleancut.MixinMinecraftClient (mixins.cleancut.json)
+		malte0811.ferritecore.mixin.fabric.MinecraftMixin (ferritecore.fabric.mixin.json)
+		net.coderbot.iris.mixin.MixinMinecraft_Keybinds (mixins.iris.json)
+		com.natamus.collective_fabric.fabric.mixin.MinecraftMixin (collective_fabric.mixins.json)
+		jerozgen.languagereload.mixin.MinecraftClientMixin (languagereload.mixins.json)
+		ca.fxco.memoryleakfix.mixin.hugeScreenshotLeak.MinecraftClient_screenshotMixin (memoryleakfix.mixins.json)
+		com.bisecthosting.mods.bhmenu.mixins.MinecraftClientMixin (bhmenu.mixins.json)
+		paulevs.edenring.mixin.client.MinecraftMixin (edenring.mixins.client.json)
+		me.lucko.spark.fabric.mixin.MinecraftClientAccessor (spark.mixins.json)
+		de.keksuccino.fancymenu.mixin.client.IMixinMinecraft (fancymenu.general.mixin.json)
+		org.purpurmc.purpur.client.mixin.MixinMinecraftClient (purpurclient.mixins.json)
+		dev.lambdaurora.lambdynlights.mixin.MinecraftClientMixin (lambdynlights.mixins.json)
+		net.voidz.mixin.client.MinecraftClientMixin (voidz.mixins.json)
+		xaero.common.mixin.MixinMinecraftClient (xaerominimap.mixins.json)
+		net.fabricmc.fabric.mixin.networking.accessor.MinecraftClientAccessor (fabric-networking-api-v1.client.mixins.json)
+		me.ramidzkh.fabrishot.mixins.MinecraftClientMixin (mixins.fabrishot.json)
+		betteradvancements.mixin.MinecraftMixin (betteradvancements.mixins.json)
+		fudge.notenoughcrashes.fabric.mixins.client.CatchInitMInecraftClientMixin (notenoughcrashes.fabric.mixins.json)
+	net.minecraft.client.main.Main:
+		ca.fxco.memoryleakfix.mixin.spongePoweredLeak.Main_clientLoadedMixin (memoryleakfix.mixins.json)
+		io.github.ultimateboomer.smoothboot.mixin.client.MainMixin (smoothboot.mixins.json)
+		dev.quantumfusion.dashloader.mixin.main.MainMixin (dashloader.mixins.json)
+		fudge.notenoughcrashes.fabric.mixins.client.MixinMain (notenoughcrashes.fabric.mixins.json)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 18.0.2.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 389441544 bytes (371 MiB) / 1067450368 bytes (1018 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 167 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1650
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f82
+	Graphics card #0 versionInfo: DriverVersion=30.0.15.1165
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 27485.47
+	Virtual memory used (MB): 15513.11
+	Swap memory total (MB): 11264.00
+	Swap memory used (MB): 120.98
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m
+	Fabric Mods: 
+		additionalstructures: Additional Structures 4.1.0
+		adorn: Adorn 3.6.1+1.19
+		adventurez: AdventureZ 1.4.16
+		animatica: Animatica 0.5+1.19
+		another_furniture: Another Furniture 2.0.3-1.19.2
+		appleskin: AppleSkin 2.4.1+mc1.19
+		architects_palette: Architect's Palette Fabric 2.1.1
+		architectury: Architectury 6.2.46
+		attributefix: AttributeFix 17.1.2
+		auudio: Auudio 1.0.3
+		axolotlitemfix: Axolotl Item Fix 1.1.3
+		badpackets: Bad Packets 0.2.0
+		balm-fabric: Balm 4.5.2+0
+		barteringstation: Bartering Station 4.0.0
+		bcc: BetterCompatibilityChecker 2.0.2-build.16+mc1.19.1
+		bclib: BCLib 2.1.1
+		betteradvancements: Better Advancements 0.2.2.142
+		betterend: Better End 2.1.1
+		betterf3: BetterF3 4.0.0
+		bettermounthud: Better Mount HUD 1.2.0
+		betternether: Better Nether 7.1.1
+		betterstats: Better Statistics Screen 1.4.3
+		bettertridents: Better Tridents 4.0.1
+		bhmenu: BHMenu-Fabric 1.19-1.3
+		biomemakeover: Biome Makeover 1.19.2-1.5.12
+		blur: Blur (Fabric) 2.6.0
+			satin: Satin 1.8.0
+		bookshelf: Bookshelf 16.1.5
+		bosses_of_mass_destruction: Bosses of Mass Destruction (Beta) 1.4.2-1.19
+			maelstrom_library: Maelstrom Library 1.3-1.19-pre1
+			multipart_entities: MultipartEntities 1.2-1.19-pre1
+		bountiful: Bountiful 3.0.0
+		byg: Oh The Biomes You'll Go 2.0.0.12
+			com_electronwill_night-config_core: core 3.6.6
+			com_electronwill_night-config_toml: toml 3.6.6
+		cardinal-components: Cardinal Components API 5.0.2
+			cardinal-components-base: Cardinal Components API (base) 5.0.2
+			cardinal-components-block: Cardinal Components API (blocks) 5.0.2
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.0.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.0.2
+			cardinal-components-item: Cardinal Components API (items) 5.0.2
+			cardinal-components-level: Cardinal Components API (world saves) 5.0.2
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.0.2
+			cardinal-components-world: Cardinal Components API (worlds) 5.0.2
+		cem: Custom Entity Models 0.7.1
+			completeconfig-base: completeconfig-base 2.0.0-beta.3
+			completeconfig-gui-cloth: completeconfig-gui-cloth 2.0.0-beta.3
+		charm: Charm 4.4.4
+			com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		charmofundying: Charm of Undying 6.0.0+1.19.2
+		charmonium: Charmonium 4.2.1
+		chat_heads: Chat Heads 0.7.1
+		cherishedworlds: Cherished Worlds 6.0.1+1.19.2
+		chubbystuff: Chubby Stuff ChubbyStuff-2.0.0+1.19.2
+		citresewn: CIT Resewn 1.1.2+1.19.2
+			citresewn-defaults: CIT Resewn: Defaults 1.1.2+1.19.2
+		cleancut: CleanCut 1.19.2-5.1-fabric
+		cloth-config: Cloth Config v8 8.2.88
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 9.0.0+11
+		collective-fabric: Collective (Fabric) 5.7
+			fiber: fiber 0.23.0-2
+		colormatic: Colormatic 3.1.2+mc.1.19
+		comforts: Comforts 6.0.2+1.19.2
+		consistency_plus: Consistency Plus 0.5.1+1.19.2
+			stonecutter_recipe_tags: Stonecutter Recipe Tags 4.0.0+1.19.9b8d04c.fabric
+		continuity: Continuity 2.0.1+1.19
+		controlling: Controlling For Fabric 10.0+6
+		crawl: Crawl 0.11.1
+			mm: Manningham Mills 2.3
+		creaturesofthesnow: Creatures Of The Snow 3.1.0+1.19.2
+		cull-less-leaves: Cull Less Leaves 1.0.6
+			com_github_llamalad7_mixinextras: mixinextras 0.0.12
+			conditional-mixin: conditional mixin 0.3.0
+		darkpaintings: DarkPaintings 13.1.2
+		dashloader: DashLoader 4.1.3+1.19
+			com_github_luben_zstd-jni: zstd-jni 1.5.2-2
+			dev_quantumfusion_hyphen: Hyphen 0.2.2
+			dev_quantumfusion_taski: Taski 1.1.0
+		dawn: Dawn API 3.5.0
+		dcch: DCCH 1.2
+		debugify: Debugify 2.7.1
+		decorative_blocks: Decorative Blocks 3.0.0
+		deepslatecutting: Deepslate Cutting 1.5.0
+		diagonalfences: Diagonal Fences 4.2.1
+		dragonloot: DragonLoot 1.1.2
+		drippyloadingscreen: Drippy Loading Screen 1.6.4
+		duckling: Duckling 2.0.7
+		dungeons_arise: When Dungeons Arise 2.1.51
+		dynamicfps: Dynamic FPS 2.2.0
+		easyanvils: Easy Anvils 4.0.1
+		easymagic: Easy Magic 4.3.2
+		ecologics: Ecologics 2.1.10
+		edenring: EdenRing 0.6.4
+		effective: Effective 1.3
+		elytraslot: Elytra Slot 6.0.0+1.19.2
+		enchdesc: EnchantmentDescriptions 13.0.3
+		endgoblintraders: End Goblin Traders 1.5.1
+		enhancedblockentities: Enhanced Block Entities 0.7.1+1.19
+			advanced_runtime_resource_pack: Runtime Resource Pack 0.6.2
+			spruceui: SpruceUI 4.0.0+1.19
+		entity_texture_features: Entity Texture Features 4.1.1
+			org_apache_httpcomponents_httpmime: httpmime 4.5.10
+		entityculling: EntityCulling-Fabric 1.5.2-mc1.19
+			com_logisticscraft_occlusionculling: occlusionculling 0.0.6-SNAPSHOT
+		equipmentcompare: Equipment Compare 1.3.1
+		everycomp: Every Compat 1.19.2-2.0.4
+		expandeddelight: Expanded Delight 0.2.2
+		extended_armor_bars: Extended Armor Bars 1.2.1
+		fabric-api: Fabric API 0.62.0+1.19.2
+			fabric-api-base: Fabric API Base 0.4.12+93d8cb8290
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.10+93d8cb8290
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.0.18+c6af733c90
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.21+c6af733c90
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.2+b35fea8390
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.12+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.1.8+93d8cb8290
+			fabric-commands-v0: Fabric Commands (v0) 0.2.29+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.35+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.3.1+624e468e90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.1.2+93d8cb8290
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.6+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.2.0+b598f4ac90
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.32+0dd10df690
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.4.19+9ff28f4090
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.29+c6af733c90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.29+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.22+c6af733c90
+			fabric-item-api-v1: Fabric Item API (v1) 1.5.8+93d8cb8290
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.30+93d8cb8290
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.21+93d8cb8290
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.19+df3654b390
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.0+33ffe9ec90
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.4+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.7+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.4+93d8cb8290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.15+33fbc73890
+			fabric-models-v0: Fabric Models (v0) 0.3.18+c6af733c90
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.5+c6af733c90
+			fabric-networking-v0: Fabric Networking (v0) 0.3.22+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.0.12+93d8cb8290
+			fabric-particles-v1: Fabric Particles (v1) 1.0.11+79adfe0a90
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.26+c6af733c90
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 1.0.11+c6af733c90
+			fabric-renderer-indigo: Fabric Renderer - Indigo 0.6.13+aeb40ebe90
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.21+df3654b390
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.15+aeb40ebe90
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.8+c6af733c90
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.23+df3654b390
+			fabric-rendering-v1: Fabric Rendering (v1) 1.11.0+73145abb90
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.0.12+a29562c890
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.7.0+93d8cb8290
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.27+93d8cb8290
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.1+1cc24b1b90
+			fabric-textures-v0: Fabric Textures (v0) 1.0.21+aeb40ebe90
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.1+93d8cb8290
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.1+42d99c3290
+		fabric-language-kotlin: Fabric Language Kotlin 1.8.4+kotlin.1.7.20
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.7.20
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.7.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.7.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.7.20
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.18.3
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.6.4
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.6.4
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.4.0
+		fabricloader: Fabric Loader 0.14.9
+		fabrishot: Fabrishot 1.9.1
+		fallingleaves: Falling Leaves 1.12.2+1.19.2
+		fallingtree: FallingTree 3.10.0
+		fancymenu: FancyMenu 2.12.2
+		farmersdelight: Farmer's Delight 1.19-1.3.3
+		farmersknives: Farmer's Knives 2.1
+		farsight: Farsight Mod 1.19-2.1
+		ferritecore: FerriteCore 4.2.1
+		forgeconfigapiport: Forge Config API Port 4.2.6
+		frame: Frame 0.26.1+1.19-fabric
+			frame-api-base: Frame Base 0.2.1+906ebc04a9
+			frame-blocks-v0: Frame Blocks (v0) 0.1.3+233e7428a9
+			frame-config-v0: Frame Config (v0) 0.3.1+0fa45150a9
+			frame-content-registries-v0: Frame Content Registries (v0) 0.4.0+2876b511a9
+			frame-enchantments-v0: Frame Enchantments (v0) 0.1.0+4093105da9
+			frame-game-rules-v0: Frame Game Rules (v0) 0.2.4+e7ce56a6a9
+			frame-items-v0: Frame Items (v0) 0.1.3+906ebc04a9
+			frame-loot-tables-v0: Frame Loot Tables (v0) 0.1.4+4f7341eca9
+			frame-registries-v0: Frame Registries (v0) 0.1.1+0e0ec74ea9
+			frame-rendering-v0: Frame Rendering (v0) 0.1.5+906ebc04a9
+			frame-tabbed-item-groups-v0: Frame Tabbed Item Groups (v0) 0.2.4+0aca9b56a9
+			frame-toymaker-v0: Frame Data Generation Helpers (v0) 0.6.1+b13741c3a9
+			frame-woods-v0: Frame Woods (v0) 0.2.1+6a33fbada9
+		friendsandfoes: Friends&Foes 1.5.11
+		ftbbackups2: FTB Backups 2 1.0.14
+		ftblibrary: FTB Library 1902.3.9-build.144
+		ftbquests: FTB Quests 1902.4.2-build.116
+		ftbteams: FTB Teams 1902.2.9-build.61
+		fwaystones: Fabric Waystones 3.0.5+mc1.19.2
+		galosphere: Galosphere 1.19.1-1.1.2
+		geckolib3: Geckolib 3.1.18
+			com_eliotlash_mclib_mclib: mclib 18
+			com_eliotlash_molang_molang: molang 18
+		geodes: More Geodes 1.5.1
+		go-fish: Go Fish 1.6.0-1.19.1
+		goblintraders: Goblin Traders 1.5.2
+		goodall: Goodall 1.1.1
+		graphutil: GraphUtil-Fabric 1.0.0-mc1.19
+		highlighter: Highlighter 1.1.4
+		iceberg: Iceberg 1.0.46
+		illuminations: Illuminations 1.10.8
+		indium: Indium 1.0.9+mc1.19.2
+		inmis: Inmis 2.7.0-1.19
+			omega-config: OmegaConfig 1.2.3-1.18.1
+		inmisaddon: InmisAddon 1.0.2
+		inventoryhud: Inventory HUD + 3.4.2
+		iris: Iris 1.4.0
+			io_github_douira_glsl-transformer: glsl-transformer 1.0.0-pre21.2
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.10.1
+		itemfilters: Item Filters 1902.2.9-build.41
+		itemmodelfix: Item Model Fix 1.0.3+1.19
+		jade: Jade 8.2.1
+		jamlib: JamLib 0.4.4
+		java: Java HotSpot(TM) 64-Bit Server VM 18
+		kambrik: Kambrik 4.0-1.19.2
+		kleeslabs: KleeSlabs 12.1.0
+		konkrete: Konkrete 1.5.2
+		krypton: Krypton 0.2.1
+			com_velocitypowered_velocity-native: velocity-native 3.1.2-SNAPSHOT
+		lambdabettergrass: LambdaBetterGrass 1.3.0+1.19
+		lambdynlights: LambDynamicLights 2.1.2+1.19
+			pride: Pride Lib 1.1.2+1.19
+		languagereload: Language Reload 1.3.2
+		lazydfu: LazyDFU 0.1.3
+		leavesbegone: Leaves Be Gone 4.0.0
+		libipn: libIPN 1.0.1
+		lithium: Lithium 0.10.0
+		magnumtorch: Magnum Torch 4.2.0
+		mavm: More Axolotl Variants Mod 1.1.0
+		memoryleakfix: memory Leak Fix 1.19.1-0.7.0
+		midnightlib: MidnightLib 0.6.1
+		minecraft: Minecraft 1.19.2
+		minelib: mine11lib 0.1.3+1.19
+			com_sksamuel_scrimage_scrimage-core: scrimage-core 4.0.31
+		mixintrace: MixinTrace 1.1.1+1.17
+		modmenu: Mod Menu 4.0.6
+		moonlight: Moonlight 1.19.2-2.0.32
+		more_babies: More Babies 1.0.0
+		morechathistory: MoreChatHistory 1.1.1
+		moremcmeta: MoreMcmeta 1.19-3.0.5
+		mousetweaks: Mouse Tweaks 2.22
+		mvs: Vanilla Structure Mod 2.5.9
+		naturalist: Naturalist 2.1.1
+		naturescompass: Nature's Compass 1.19.2-2.0.4-fabric
+		nears: Nears 1.2.3
+		netherdepthsupgrade: Nether Depths Upgrade 1.1.0
+		netherportalfix: NetherPortalFix 10.0.0
+		no-resource-pack-warnings: No Resource Pack Warnings 1.0.0
+		nochatreports: No Chat Reports 1.19.2-v1.13.9
+		nofade: No Fade 1.18-2.0.1
+		notenoughanimations: NotEnoughAnimations 1.6.1
+		notenoughcrashes: Not Enough Crashes 4.1.8+1.19.2
+		onsoulfire: On Soul Fire 1.19-2
+		openloader: OpenLoader 15.0.1
+		openpartiesandclaims: Open Parties and Claims 0.15.0
+		optigui: OptiGUI 1.1.6
+			org_apache_commons_commons-text: commons-text 1.9
+		owo: oωo 0.8.4+1.19
+			blue_endless_jankson: jankson 1.2.1
+		oxidized: Oxidized 1.7.2
+		paintings: Paintings++ 10.2.1.0
+		patchouli: Patchouli 1.19.2-76-FABRIC
+		pickupnotifier: Pick Up Notifier 4.2.0
+		polylib: PolyLib 1900.0.2-build.27
+		polymorph: Polymorph 0.45.0+1.19.2
+		purpurclient: Purpur Client 1.19.2-16
+			confabricate: confabricate 3.0.0-SNAPSHOT+4.1.2
+				com_typesafe_config: config 1.4.2
+				io_leangen_geantyref_geantyref: geantyref 1.3.13
+				org_spongepowered_configurate-core: configurate-core 4.1.2
+				org_spongepowered_configurate-extra-dfu4: configurate-extra-dfu4 4.1.2
+				org_spongepowered_configurate-gson: configurate-gson 4.1.2
+				org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		puzzle: Puzzle 1.4.0-1.19
+			puzzle-base: Puzzle Base 1.4.0-1.19
+			puzzle-gui: Puzzle GUI 1.4.0-1.19
+			puzzle-models: Puzzle Models 1.4.0-1.19
+			puzzle-splashscreen: Puzzle Splash Screen 1.4.0-1.19
+		puzzleslib: Puzzles Lib 4.3.9
+		quartzelv: Quartz Elevator 2.1.5+1.19
+		rebind_narrator: Rebind Narrator 2.0.0
+		reeses-sodium-options: Reese's Sodium Options 1.4.7+mc1.19.2-build.59
+		repurposed_structures: Repurposed Structures 6.1.1+1.19
+		rightclickharvest: Right Click Harvest 3.0.1
+		roughlyenoughitems: Roughly Enough Items 9.1.550
+			error_notifier: Error Notifier 1.0.9
+		roughlyenoughprofessions: Roughly Enough Professions 1.1.2
+		roughlyenoughresources: Roughly Enough Resources 2.6.0
+		sdrp: Simple Discord Rich Presence 3.0.2-build.23+mc1.19.2
+		seasons: Fabric Seasons 1.4-BETA+1.19
+		skinlayers: 3d Skin Layers 1.5.2-mc1.19.1
+		smoothboot: Smooth Boot 1.19-1.7.1
+		smoothchunk: Smooth chunk save Mod 1.19.1-2.0
+		sod: Sod 22.8.17
+		sodium: Sodium 0.4.4+build.18
+			org_joml_joml: joml 1.10.4
+		sodium-extra: Sodium Extra 0.4.11+mc1.19.2-build.68
+			caffeineconfig: CaffeineConfig 1.0.0+1.17
+		spark: spark 1.9.40
+			fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+		spirit: Spirit 2.1.12
+		sspb: Sodium Shadowy Path Blocks 3.1.0
+		starlight: Starlight 1.1.1+fabric.ae22326
+		starterkit-fabric: Starter Kit (Fabric) 3.8
+		strawgolem: Straw Golem 2.0.0b2
+		structory: Structory 1.0.1
+		supplementaries: Supplementaries 1.19.2-2.2.6
+		taxfreelevels: Tax Free Levels 1.3.3
+		terrablender: TerraBlender 2.0.1.128
+		terrestria: Terrestria 5.0.2
+			terraform-biome-remapper-api-v1: Terraform Biome Remapper API (v1) 4.1.1
+			terraform-config-api-v1: Terraform Config API (v1) 4.1.1
+			terraform-dirt-api-v1: Terraform Dirt API (v1) 4.1.1
+			terraform-shapes-api-v1: Terraform Shapes API (v1) 4.1.1
+			terraform-surfaces-api-v1: Terraform Surfaces API (v1) 4.1.1
+			terraform-tree-api-v1: Terraform Tree API (v1) 4.1.1
+			terraform-wood-api-v1: Terraform Wood API (v1) 4.1.1
+			terrestria-client: Terrestria: Client 5.0.2
+			terrestria-common: Terrestria: Common 5.0.2
+			terrestria-worldgen: Terrestria: World Generation 5.0.2
+		the_bumblezone: The Bumblezone - Fabric 6.1.14+1.19.2
+			fake-player-api: Fake Player API 0.4.0
+		thonkutil: ThonkUtil 2.15.4+1.19
+			thonkutil-base: ThonkUtil Base 1.13.2+4a8c408a57
+			thonkutil-capes-v1: ThonkUtil Capes (v1) 1.4.2+3eb2749857
+			thonkutil-coords-v1: ThonkUtil Coords (v1) 1.1.2+8ff533c957
+			thonkutil-customization-v1: ThonkUtil Customization (v1) 1.1.2+8ff533c957
+			thonkutil-legacy: ThonkUtil Legacy 1.1.2+5d4263f557
+			thonkutil-modchecker-v1: ThonkUtil ModChecker (v1) 1.1.3+bd4b387957
+			thonkutil-potions-v0: ThonkUtil Potions (v0) 1.5.2+8ff533c957
+			thonkutil-titlescreen-v1: ThonkUtil TitleScreen (v1) 1.2.2+8ff533c957
+			thonkutil-trades-v1: ThonkUtil Trades (v1) 1.2.2+8ff533c957
+		tipsmod: Tips 8.0.3
+		toms_storage: Tom's Simple Storage Mod 1.4.3
+		toolstats: ToolStats 12.0.2
+		tradingpost: Trading Post 4.2.0
+		transparent: Transparent 5.1.0
+		trinkets: Trinkets 3.4.0
+		twigs: Twigs 2.0.0-beta.9+1.19-fabric
+		universal_ores: Universal Ores 1.4.2
+		veinmining: Vein Mining 1.0.0-beta.5+1.19.2
+			spectrelib: SpectreLib 0.11.0+1.19
+		villagernames: Villager Names 4.0.8
+		visuality: Visuality 0.5.1
+		visualoverhaul: VisualOverhaul 4.1.1
+		visualworkbench: Visual Workbench 4.2.0
+		vmp: Very Many Players 0.2.0+beta.7.8
+		voicechat: Simple Voice Chat 1.19.2-2.3.10
+		voidtotem: Void Totem 2.1.0
+		voidz: VoidZ 1.0.9
+		windchimes: Windchimes 1.2.1
+		wolveswitharmor: Wolves With Armor 1.8.0-1.19
+			maybe-data: Maybe data 1.3.2-1.19-rc2
+			static-content: Static Content 1.0.1-1.16.2
+				staticdata: Static Data 1.1.2
+		xaerominimap: Xaero's Minimap 22.15.1
+		xaeroworldmap: Xaero's World Map 1.28.0
+		xp_storage: XP Storage 1.4.3+1.19
+		xp_storage_trinkets: XP Storage - Trinkets 0.1+1.19
+		yet-another-config-lib: YetAnotherConfigLib 1.5.0
+		yigd: You're in Grave Danger 1.4.4
+		zoomify: Zoomify 2.7.0
+			dev_isxander_settxi_settxi-core: settxi-core 2.10.3
+			dev_isxander_settxi_settxi-gui: settxi-gui 2.10.3
+			dev_isxander_settxi_settxi-kotlinx-serialization: settxi-kotlinx-serialization 2.10.3
+			settxi-gui-yacl: Settxi Gui (YetAnotherConfigLib) 2.10.3
+	Launched Version: 1.19.2
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Suspected Mods: Fabric Loader (fabricloader)

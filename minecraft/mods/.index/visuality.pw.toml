@@ -1,0 +1,14 @@
+name = "Visuality"
+filename = "visuality-0.5.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/rI0hvYcd/versions/0.5.1/visuality-0.5.1.jar"
+hash-format = "sha512"
+hash = "4e8d6f1496536d651d68be9fa94426e79362220a587e7ec0a06814bb6e302c7fb6bd103ada2fd30974556b071cc478f17c07bea044335ad12c1dbed8d0802ec3"
+
+[update]
+[update.modrinth]
+mod-id = "rI0hvYcd"
+version = "JHooKThf"

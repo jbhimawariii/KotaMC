@@ -1,0 +1,1748 @@
+[10:38:31] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[10:38:31] [ForkJoinPool-1-worker-7/WARN]: Mod chubbystuff uses the version ChubbyStuff-2.0.0+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'ChubbyStuff'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[10:38:31] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[10:38:31] [ForkJoinPool-1-worker-8/WARN]: Mod strawgolem uses the version 2.0.0b2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[10:38:31] [ForkJoinPool-1-worker-6/WARN]: The mod "thonkutil-customization-v1" contains invalid entries in its mod json:
+- Unsupported root entry "disabled:mixins" at line 11 column 20
+[10:38:32] [main/WARN]: Warnings were found!
+ - Mod 'Custom Entity Models' (cem) 0.7.1 recommends any version of completeconfig, which is missing!
+	 - You should install any version of completeconfig for the optimal experience.
+ - Mod 'Colormatic' (colormatic) 3.1.2+mc.1.19 recommends any version of quilt_loader, which is missing!
+	 - You should install any version of quilt_loader for the optimal experience.
+ - Mod 'Colormatic' (colormatic) 3.1.2+mc.1.19 recommends any version between 3.0.0 (inclusive) and 4- (exclusive) of mod 'Mod Menu' (modmenu), but only the wrong version is present: 4.0.6!
+	 - You should install any version between 3.0.0 (inclusive) and 4- (exclusive) of mod 'Mod Menu' (modmenu) for the optimal experience.
+[10:38:32] [main/INFO]: Loading 365 mods:
+	- additionalstructures 4.1.0
+	- adorn 3.6.1+1.19
+	- advanced_runtime_resource_pack 0.6.2 via enhancedblockentities
+	- adventurez 1.4.16
+	- animatica 0.5+1.19
+	- another_furniture 2.0.3-1.19.2
+	- appleskin 2.4.1+mc1.19
+	- architects_palette 2.1.1
+	- architectury 6.2.46
+	- attributefix 17.1.2
+	- auudio 1.0.3
+	- axolotlitemfix 1.1.3
+	- badpackets 0.2.0
+	- balm-fabric 4.5.2+0
+	- barteringstation 4.0.0
+	- bcc 2.0.2-build.16+mc1.19.1
+	- bclib 2.1.1
+	- betteradvancements 0.2.2.142
+	- betterend 2.1.1
+	- betterf3 4.0.0
+	- bettermounthud 1.2.0
+	- betternether 7.1.1
+	- betterstats 1.4.3
+	- bettertridents 4.0.1
+	- bhmenu 1.19-1.3
+	- biomemakeover 1.19.2-1.5.12
+	- blue_endless_jankson 1.2.1 via owo
+	- blur 2.6.0
+	- bookshelf 16.1.5
+	- bosses_of_mass_destruction 1.4.2-1.19
+	- bountiful 3.0.0
+	- byg 2.0.0.12
+	- caffeineconfig 1.0.0+1.17 via sodium-extra
+	- cardinal-components 5.0.2
+	- cardinal-components-base 5.0.2 via cardinal-components
+	- cardinal-components-block 5.0.2 via cardinal-components
+	- cardinal-components-chunk 5.0.2 via cardinal-components
+	- cardinal-components-entity 5.0.2 via cardinal-components
+	- cardinal-components-item 5.0.2 via cardinal-components
+	- cardinal-components-level 5.0.2 via cardinal-components
+	- cardinal-components-scoreboard 5.0.2 via cardinal-components
+	- cardinal-components-world 5.0.2 via cardinal-components
+	- cem 0.7.1
+	- charm 4.4.4
+	- charmofundying 6.0.0+1.19.2
+	- charmonium 4.2.1
+	- chat_heads 0.7.1
+	- cherishedworlds 6.0.1+1.19.2
+	- chubbystuff ChubbyStuff-2.0.0+1.19.2
+	- citresewn 1.1.2+1.19.2
+	- citresewn-defaults 1.1.2+1.19.2 via citresewn
+	- cleancut 1.19.2-5.1-fabric
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- clumps 9.0.0+11
+	- collective-fabric 5.7
+	- colormatic 3.1.2+mc.1.19
+	- com_electronwill_night-config_core 3.6.6 via byg
+	- com_electronwill_night-config_toml 3.6.6 via byg
+	- com_eliotlash_mclib_mclib 18 via geckolib3
+	- com_eliotlash_molang_molang 18 via geckolib3
+	- com_github_llamalad7_mixinextras 0.0.12 via cull-less-leaves
+	- com_github_luben_zstd-jni 1.5.2-2 via dashloader
+	- com_logisticscraft_occlusionculling 0.0.6-SNAPSHOT via entityculling
+	- com_moandjiezana_toml_toml4j 0.7.2 via charm
+	- com_sksamuel_scrimage_scrimage-core 4.0.31 via minelib
+	- com_velocitypowered_velocity-native 3.1.2-SNAPSHOT via krypton
+	- comforts 6.0.2+1.19.2
+	- completeconfig-base 2.0.0-beta.3 via cem
+	- completeconfig-gui-cloth 2.0.0-beta.3 via cem
+	- conditional-mixin 0.3.0 via cull-less-leaves
+	- consistency_plus 0.5.1+1.19.2
+	- controlling 10.0+6
+	- crawl 0.11.1
+	- creaturesofthesnow 3.1.0+1.19.2
+	- cull-less-leaves 1.0.6
+	- darkpaintings 13.1.2
+	- dashloader 4.1.3+1.19
+	- dawn 3.5.0
+	- dcch 1.2
+	- debugify 2.7.1
+	- decorative_blocks 3.0.0
+	- deepslatecutting 1.5.0
+	- dev_isxander_settxi_settxi-core 2.10.3 via zoomify
+	- dev_isxander_settxi_settxi-gui 2.10.3 via zoomify
+	- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.3 via zoomify
+	- dev_quantumfusion_hyphen 0.2.2 via dashloader
+	- dev_quantumfusion_taski 1.1.0 via dashloader
+	- diagonalfences 4.2.1
+	- dragonloot 1.1.2
+	- drippyloadingscreen 1.6.4
+	- duckling 2.0.7
+	- dungeons_arise 2.1.51
+	- dynamicfps 2.2.0
+	- easyanvils 4.0.1
+	- easymagic 4.3.2
+	- ecologics 2.1.10
+	- edenring 0.6.4
+	- effective 1.3
+	- elytraslot 6.0.0+1.19.2
+	- enchdesc 13.0.3
+	- endgoblintraders 1.5.1
+	- enhancedblockentities 0.7.1+1.19
+	- entity_texture_features 4.1.1
+	- entityculling 1.5.2-mc1.19
+	- equipmentcompare 1.3.1
+	- error_notifier 1.0.9 via roughlyenoughitems
+	- everycomp 1.19.2-2.0.4
+	- expandeddelight 0.2.2
+	- extended_armor_bars 1.2.1
+	- fabric-api 0.62.0+1.19.2
+	- fabric-api-base 0.4.12+93d8cb8290 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.10+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.0.18+c6af733c90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.21+c6af733c90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.2+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.12+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.8+93d8cb8290 via fabric-api
+	- fabric-commands-v0 0.2.29+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.35+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.1+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.2+93d8cb8290 via fabric-api
+	- fabric-crash-report-info-v1 0.2.6+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.2.0+b598f4ac90 via fabric-api
+	- fabric-dimensions-v1 2.1.32+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.19+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.29+c6af733c90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.29+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.22+c6af733c90 via fabric-api
+	- fabric-item-api-v1 1.5.8+93d8cb8290 via fabric-api
+	- fabric-item-groups-v0 0.3.30+93d8cb8290 via fabric-api
+	- fabric-key-binding-api-v1 1.0.21+93d8cb8290 via fabric-api
+	- fabric-keybindings-v0 0.2.19+df3654b390 via fabric-api
+	- fabric-language-kotlin 1.8.4+kotlin.1.7.20
+	- fabric-lifecycle-events-v1 2.2.0+33ffe9ec90 via fabric-api
+	- fabric-loot-api-v2 1.1.4+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.7+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.4+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.15+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.18+c6af733c90 via fabric-api
+	- fabric-networking-api-v1 1.2.5+c6af733c90 via fabric-api
+	- fabric-networking-v0 0.3.22+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.12+93d8cb8290 via fabric-api
+	- fabric-particles-v1 1.0.11+79adfe0a90 via fabric-api
+	- fabric-permissions-api-v0 0.1-SNAPSHOT via spark
+	- fabric-registry-sync-v0 0.9.26+c6af733c90 via fabric-api
+	- fabric-renderer-api-v1 1.0.11+c6af733c90 via fabric-api
+	- fabric-renderer-indigo 0.6.13+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.21+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.15+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.8+c6af733c90 via fabric-api
+	- fabric-rendering-v0 1.1.23+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.11.0+73145abb90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.12+a29562c890 via fabric-api
+	- fabric-resource-loader-v0 0.7.0+93d8cb8290 via fabric-api
+	- fabric-screen-api-v1 1.0.27+93d8cb8290 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.1+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.1+93d8cb8290 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.1+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- fabrishot 1.9.1
+	- fake-player-api 0.4.0 via the_bumblezone
+	- fallingleaves 1.12.2+1.19.2
+	- fallingtree 3.10.0
+	- fancymenu 2.12.2
+	- farmersdelight 1.19-1.3.3
+	- farmersknives 2.1
+	- farsight 1.19-2.1
+	- ferritecore 4.2.1
+	- fiber 0.23.0-2 via collective-fabric
+	- forgeconfigapiport 4.2.6
+	- frame 0.26.1+1.19-fabric
+	- frame-api-base 0.2.1+906ebc04a9 via frame
+	- frame-blocks-v0 0.1.3+233e7428a9 via frame
+	- frame-config-v0 0.3.1+0fa45150a9 via frame
+	- frame-content-registries-v0 0.4.0+2876b511a9 via frame
+	- frame-enchantments-v0 0.1.0+4093105da9 via frame
+	- frame-game-rules-v0 0.2.4+e7ce56a6a9 via frame
+	- frame-items-v0 0.1.3+906ebc04a9 via frame
+	- frame-loot-tables-v0 0.1.4+4f7341eca9 via frame
+	- frame-registries-v0 0.1.1+0e0ec74ea9 via frame
+	- frame-rendering-v0 0.1.5+906ebc04a9 via frame
+	- frame-tabbed-item-groups-v0 0.2.4+0aca9b56a9 via frame
+	- frame-toymaker-v0 0.6.1+b13741c3a9 via frame
+	- frame-woods-v0 0.2.1+6a33fbada9 via frame
+	- friendsandfoes 1.5.11
+	- ftbbackups2 1.0.14
+	- ftblibrary 1902.3.9-build.144
+	- ftbquests 1902.4.2-build.116
+	- ftbteams 1902.2.9-build.61
+	- fwaystones 3.0.5+mc1.19.2
+	- galosphere 1.19.1-1.1.2
+	- geckolib3 3.1.18
+	- geodes 1.5.1
+	- go-fish 1.6.0-1.19.1
+	- goblintraders 1.5.2
+	- goodall 1.1.1
+	- graphutil 1.0.0-mc1.19
+	- highlighter 1.1.4
+	- iceberg 1.0.46
+	- illuminations 1.10.8
+	- indium 1.0.9+mc1.19.2
+	- inmis 2.7.0-1.19
+	- inmisaddon 1.0.2
+	- inventoryhud 3.4.2
+	- io_github_douira_glsl-transformer 1.0.0-pre21.2 via iris
+	- iris 1.4.0
+	- itemfilters 1902.2.9-build.41
+	- itemmodelfix 1.0.3+1.19
+	- jade 8.2.1
+	- jamlib 0.4.4
+	- java 18
+	- kambrik 4.0-1.19.2
+	- kleeslabs 12.1.0
+	- konkrete 1.5.2
+	- krypton 0.2.1
+	- lambdynlights 2.1.2+1.19
+	- languagereload 1.3.2
+	- lazydfu 0.1.3
+	- leavesbegone 4.0.0
+	- libipn 1.0.1
+	- lithium 0.10.0
+	- maelstrom_library 1.3-1.19-pre1 via bosses_of_mass_destruction
+	- magnumtorch 4.2.0
+	- mavm 1.1.0
+	- maybe-data 1.3.2-1.19-rc2 via wolveswitharmor
+	- memoryleakfix 1.19.1-0.7.0
+	- midnightlib 0.6.1
+	- minecraft 1.19.2
+	- minelib 0.1.3+1.19
+	- mixintrace 1.1.1+1.17
+	- mm 2.3 via crawl
+	- modmenu 4.0.6
+	- moonlight 1.19.2-2.0.32
+	- more_babies 1.0.0
+	- morechathistory 1.1.1
+	- moremcmeta 1.19-3.0.5
+	- mousetweaks 2.22
+	- multipart_entities 1.2-1.19-pre1 via bosses_of_mass_destruction
+	- mvs 2.5.9
+	- naturalist 2.1.1
+	- naturescompass 1.19.2-2.0.4-fabric
+	- nears 1.2.3
+	- netherdepthsupgrade 1.1.0
+	- netherportalfix 10.0.0
+	- no-resource-pack-warnings 1.0.0
+	- nochatreports 1.19.2-v1.13.9
+	- nofade 1.18-2.0.1
+	- notenoughanimations 1.6.1
+	- notenoughcrashes 4.1.8+1.19.2
+	- omega-config 1.2.3-1.18.1 via inmis
+	- onsoulfire 1.19-2
+	- openloader 15.0.1
+	- openpartiesandclaims 0.15.0
+	- optigui 1.1.6
+	- org_anarres_jcpp 1.4.14 via iris
+	- org_antlr_antlr4-runtime 4.10.1 via iris
+	- org_apache_commons_commons-text 1.9 via optigui
+	- org_apache_httpcomponents_httpmime 4.5.10 via entity_texture_features
+	- org_jetbrains_kotlin_kotlin-reflect 1.7.20 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib 1.7.20 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.7.20 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.7.20 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_atomicfu-jvm 0.18.3 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.4.0 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.4.0 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.4.0 via fabric-language-kotlin
+	- org_joml_joml 1.10.4 via sodium
+	- owo 0.8.4+1.19
+	- oxidized 1.7.2
+	- paintings 10.2.1.0
+	- patchouli 1.19.2-76-FABRIC
+	- pickupnotifier 4.2.0
+	- polylib 1900.0.2-build.27
+	- polymorph 0.45.0+1.19.2
+	- pride 1.1.2+1.19 via lambdynlights
+	- puzzle 1.4.0-1.19
+	- puzzle-base 1.4.0-1.19 via puzzle
+	- puzzle-gui 1.4.0-1.19 via puzzle
+	- puzzle-models 1.4.0-1.19 via puzzle
+	- puzzle-splashscreen 1.4.0-1.19 via puzzle
+	- puzzleslib 4.3.9
+	- quartzelv 2.1.5+1.19
+	- rebind_narrator 2.0.0
+	- reeses-sodium-options 1.4.7+mc1.19.2-build.59
+	- repurposed_structures 6.1.1+1.19
+	- rightclickharvest 3.0.1
+	- roughlyenoughitems 9.1.550
+	- roughlyenoughprofessions 1.1.2
+	- roughlyenoughresources 2.6.0
+	- satin 1.8.0 via blur
+	- sdrp 3.0.2-build.23+mc1.19.2
+	- seasons 1.4-BETA+1.19
+	- settxi-gui-yacl 2.10.3 via zoomify
+	- skinlayers 1.5.2-mc1.19.1
+	- smoothboot 1.19-1.7.1
+	- smoothchunk 1.19.1-2.0
+	- sod 22.8.17
+	- sodium 0.4.4+build.18
+	- sodium-extra 0.4.11+mc1.19.2-build.68
+	- spark 1.9.40
+	- spectrelib 0.11.0+1.19 via veinmining
+	- spirit 2.1.12
+	- spruceui 4.0.0+1.19 via enhancedblockentities
+	- starlight 1.1.1+fabric.ae22326
+	- starterkit-fabric 3.8
+	- static-content 1.0.1-1.16.2 via wolveswitharmor
+	- staticdata 1.1.2 via static-content
+	- stonecutter_recipe_tags 4.0.0+1.19.9b8d04c.fabric via consistency_plus
+	- strawgolem 2.0.0b2
+	- structory 1.0.1
+	- supplementaries 1.19.2-2.2.6
+	- taxfreelevels 1.3.3
+	- terrablender 2.0.1.128
+	- terraform-biome-remapper-api-v1 4.1.1 via terrestria
+	- terraform-config-api-v1 4.1.1 via terrestria
+	- terraform-dirt-api-v1 4.1.1 via terrestria
+	- terraform-shapes-api-v1 4.1.1 via terrestria
+	- terraform-surfaces-api-v1 4.1.1 via terrestria
+	- terraform-tree-api-v1 4.1.1 via terrestria
+	- terraform-wood-api-v1 4.1.1 via terrestria
+	- terrestria 5.0.2
+	- terrestria-client 5.0.2 via terrestria
+	- terrestria-common 5.0.2 via terrestria
+	- terrestria-worldgen 5.0.2 via terrestria
+	- the_bumblezone 6.1.14+1.19.2
+	- thonkutil 2.15.4+1.19
+	- thonkutil-base 1.13.2+4a8c408a57 via thonkutil
+	- thonkutil-capes-v1 1.4.2+3eb2749857 via thonkutil
+	- thonkutil-coords-v1 1.1.2+8ff533c957 via thonkutil
+	- thonkutil-customization-v1 1.1.2+8ff533c957 via thonkutil
+	- thonkutil-legacy 1.1.2+5d4263f557 via thonkutil
+	- thonkutil-modchecker-v1 1.1.3+bd4b387957 via thonkutil
+	- thonkutil-potions-v0 1.5.2+8ff533c957 via thonkutil
+	- thonkutil-titlescreen-v1 1.2.2+8ff533c957 via thonkutil
+	- thonkutil-trades-v1 1.2.2+8ff533c957 via thonkutil
+	- tipsmod 8.0.3
+	- toms_storage 1.4.3
+	- toolstats 12.0.2
+	- tradingpost 4.2.0
+	- transparent 5.1.0
+	- trinkets 3.4.0
+	- twigs 2.0.0-beta.9+1.19-fabric
+	- universal_ores 1.4.2
+	- veinmining 1.0.0-beta.5+1.19.2
+	- villagernames 4.0.8
+	- visuality 0.5.1
+	- visualworkbench 4.2.0
+	- vmp 0.2.0+beta.7.8
+	- voicechat 1.19.2-2.3.10
+	- voidtotem 2.1.0
+	- voidz 1.0.9
+	- windchimes 1.2.1
+	- wolveswitharmor 1.8.0-1.19
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+	- xp_storage 1.4.3+1.19
+	- xp_storage_trinkets 0.1+1.19
+	- yet-another-config-lib 1.5.0
+	- yigd 1.4.4
+	- zoomify 2.7.0
+[10:38:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/tripl/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[10:38:32] [main/INFO]: Compatibility level set to JAVA_16
+[10:38:32] [main/INFO]: Compatibility level set to JAVA_17
+[10:38:32] [main/WARN]: Reference map 'another_furniture-fabric-fabric-refmap.json' for another_furniture.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:32] [main/WARN]: Reference map 'axolotl-item-fix-refmap.json' for axolotlitemfix.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/INFO]: [MixinConfig] Not adding no_cured_villager_discount.BypassReputationGossipMixin
+[10:38:33] [main/INFO]: [MixinConfig] Not adding respawn_anchor_in_the_end.CheckIfCanSetSpawnMixin
+[10:38:33] [main/INFO]: [MixinConfig] Not adding no_chat_verified_nag.DisableToastMixin
+[10:38:33] [main/INFO]: [MixinConfig] Not adding totem_of_preserving.ExplosionMixin
+[10:38:33] [main/INFO]: [MixinConfig] Not adding no_treasure_enchantment_trading.CheckIfTradeableMixin
+[10:38:33] [main/INFO]: [MixinConfig] Not adding totem_of_preserving.DestroyBlockMixin
+[10:38:33] [main/INFO]: Bootstrapping DashLoader 4.1.3+1.19.
+[10:38:33] [main/INFO]: Preloading Debugify
+[10:38:33] [main/INFO]: Done.
+[10:38:33] [main/WARN]: Reference map 'everycomp.refmap.json' for everycomp.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: Reference map 'everycomp.refmap.json' for everycomp-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: Reference map 'goodall-fabric-refmap.json' for goodall.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/INFO]: Loaded configuration file for Lithium: 105 options available, 2 override(s) found
+[10:38:33] [main/WARN]: Reference map 'minelib11-refmap.json' for minelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: Reference map 'mvs-refmap.json' for mvs.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: Reference map 'nears-fabric-1.19-refmap.json' for nears.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: Reference map 'RoughlyEnoughProfessions-fabric-1.19-refmap.json' for roughlyenoughprofessions.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[10:38:33] [main/WARN]: Reference map 'SimpleDiscordRichPresence-fabric-refmap.json' for sdrp.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 5 override(s) found
+[10:38:33] [main/INFO]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
+[10:38:33] [main/WARN]: Reference map 'static-content-refmap.json' for static-content.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/WARN]: Reference map 'transparent-fabric-refmap.json' for transparent.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:38:33] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[10:38:34] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[10:38:34] [main/WARN]: Force disabled MC-162253 because it's conflicting with: starlight
+[10:38:34] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/gui/fabric/ScreenOverlayImplImpl (java.lang.ClassNotFoundException: me/shedaniel/rei/impl/client/gui/fabric/ScreenOverlayImplImpl)
+[10:38:34] [main/WARN]: @Mixin target me.shedaniel.rei.impl.client.gui.fabric.ScreenOverlayImplImpl was not found equipmentcompare.mixins.json:RoughlyEnoughItemsScreenOverlayImplImplMixin from mod equipmentcompare
+[10:38:34] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[10:38:34] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton, vmp]) disables it and children
+[10:38:34] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[10:38:34] [main/WARN]: Force-disabling mixin 'features.fast_biome_colors.MixinBackgroundRenderer' as rule 'mixin.features.fast_biome_colors' (added by mods [colormatic]) disables it and children
+[10:38:34] [main/WARN]: Force-disabling mixin 'features.fast_biome_colors.MixinClientWorld' as rule 'mixin.features.fast_biome_colors' (added by mods [colormatic]) disables it and children
+[10:38:34] [main/WARN]: Force-disabling mixin 'features.model.MixinMultipartBakedModel' as rule 'mixin.features.model' (added by mods [dashloader]) disables it and children
+[10:38:34] [main/WARN]: Force-disabling mixin 'features.model.MixinWeightedBakedModel' as rule 'mixin.features.model' (added by mods [dashloader]) disables it and children
+[10:38:34] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[10:38:34] [main/WARN]: Force-disabling mixin 'features.texture_updates.MixinSpriteInterpolated' as rule 'mixin.features.texture_updates' (added by mods [dashloader]) disables it and children
+[10:38:34] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
+[10:38:34] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
+[10:38:34] [main/WARN]: Error loading class: net/coderbot/iris/layer/IrisRenderTypeWrapper (java.lang.ClassNotFoundException: net/coderbot/iris/layer/IrisRenderTypeWrapper)
+[10:38:34] [main/WARN]: @Mixin target net.coderbot.iris.layer.IrisRenderTypeWrapper was not found mixins.satin.client.json:iris.IrisRenderLayerWrapperMixin from mod satin
+[10:38:34] [main/INFO]: I used the json to destroy the json
+[10:38:36] [main/INFO]: Kambrik Says Hello!
+[10:38:36] [main/INFO]: Initializing DashLoader 4.1.3+1.19.
+[10:38:36] [main/ERROR]: Failed to load class. Mod: "enhancedblockentities", Value: "foundationgames.enhancedblockentities.compat.dashloader.DashDynamicBakedModel"
+[10:38:36] [main/INFO]: [86ms] Initialized api.
+[10:38:37] [main/INFO]: Created DashLoader with KnotClassLoader.
+[10:38:37] [main/INFO]: Initialized DashLoader
+[10:38:37] [main/INFO]: Smooth Boot config initialized
+[10:38:37] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[10:38:37] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[10:38:38] [main/INFO]: Mixing client.MixinTitleScreen from nochatreports.mixins.json into net.minecraft.class_442
+[10:38:38] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[10:38:38] [main/INFO]: Mixing client.MixinLocalPlayer from nochatreports.mixins.json into net.minecraft.class_746
+[10:38:38] [main/WARN]: Discarding @Unique public method getAnimatedSkin in notenoughanimations.mixins.json:DonorAbstractClientPlayerMixin from mod notenoughanimations because it already exists in net.minecraft.class_742
+[10:38:38] [main/WARN]: Discarding @Unique public method getAnimatedSkin in 3dskinlayers.mixins.json:DonorAbstractClientPlayerMixin from mod skinlayers because it already exists in net.minecraft.class_742
+[10:38:38] [main/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[10:38:38] [main/INFO]: Mixing client.MixinChatScreen from nochatreports.mixins.json into net.minecraft.class_408
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$4(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md2aeb5f$lambda$onInit$4$1 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md2aeb5f$lambda$onInit$3$2 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$2(Lcom/aizistral/nochatreports/core/ServerSafetyLevel;Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md2aeb5f$lambda$onInit$2$3 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md2aeb5f$lambda$onInit$1$4 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/encryption/Encryptor;)V to md2aeb5f$lambda$onBeforeMessage$0$5 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[10:38:38] [main/INFO]: Mixing client.MixinJoinMultiplayerScreen from nochatreports.mixins.json into net.minecraft.class_500
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md2aeb5f$lambda$onInit$3$0 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$2(Lnet/minecraft/class_4185;)V to md2aeb5f$lambda$onInit$2$1 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md2aeb5f$lambda$onInit$1$2 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[10:38:38] [main/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md2aeb5f$lambda$onInit$0$3 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[10:38:39] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[10:38:39] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[10:38:39] [main/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
+[10:38:39] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[10:38:41] [main/INFO]: Building unoptimized datafixer
+[10:38:43] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (3fb90780)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square}
+[10:38:43] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (6cbbe9d0)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=square, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[10:38:43] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (3ac49cfb)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex}
+[10:38:43] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (30dc3d90)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[10:38:44] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[10:38:44] [main/ERROR]: Entity goblintraders:goblin_trader has no attributes
+[10:38:44] [main/ERROR]: Entity goblintraders:vein_goblin_trader has no attributes
+[10:38:44] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[10:38:44] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:38:45] [Render thread/INFO]: Setting user: jb_himawari
+[10:38:45] [Render thread/INFO]: Mixing client.MixinToastComponent from nochatreports.mixins.json into net.minecraft.class_374
+[10:38:45] [Render thread/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[10:38:46] [Render thread/INFO]: Initialized!
+[10:38:46] [Render thread/INFO]: Constructing common components for mod barteringstation
+[10:38:46] [Render thread/INFO]: Loading client config for barteringstation
+[10:38:46] [Render thread/INFO]: Creating capability controller for mod id barteringstation
+[10:38:46] [Render thread/INFO]: Loading config file
+[10:38:46] [Render thread/INFO]: Config file loaded
+[10:38:46] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[10:38:46] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[10:38:46] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[10:38:46] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[10:38:46] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[10:38:46] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[10:38:47] [Render thread/INFO]: [betternether] =^..^=    BetterNether for 1.19    =^..^=
+[10:38:47] [Render thread/INFO]: Constructing common components for mod bettertridents
+[10:38:47] [Render thread/INFO]: Loading common config for bettertridents
+[10:38:47] [Render thread/ERROR]: No data fixer registered for loyal_item
+[10:38:47] [Render thread/ERROR]: No data fixer registered for loyal_experience_orb
+[10:38:47] [Render thread/INFO]: Creating capability controller for mod id bettertridents
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:entity_particle
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:lightning_splash
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:lightning_entity
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:poltergeist_particle
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:witch_quests
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:bm_effect
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:entity_event
+[10:38:47] [Render thread/INFO]: Registering S2C receiver with id biomemakeover:slide_time
+[10:38:47] [Render thread/INFO]: Registering C2S receiver with id biomemakeover:cl_complete_quest
+[10:38:47] [Render thread/INFO]: Registering C2S receiver with id biomemakeover:update_dir_data
+[10:38:47] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[10:38:47] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[10:38:48] [Render thread/INFO]: Common init
+[10:38:48] [Render thread/INFO]: BYG registries bootstrapped
+[10:38:48] [Render thread/ERROR]: No data fixer registered for byg:boat
+[10:38:48] [Render thread/ERROR]: No data fixer registered for byg:chest_boat
+[10:38:48] [Render thread/INFO]: Initializing BYG network...
+[10:38:48] [Render thread/INFO]: Initialized BYG network!
+[10:38:48] [Render thread/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled AerialAffinityEnchantment
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled AllowTooExpensive
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled AmethystNoteBlock
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Atlases
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled AutoRestock
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled AzaleaWood
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled BatBuckets
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled BeaconsHealMobs
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Beekeepers
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfEnderPearls
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfGunpowder
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfSugar
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Bookcases
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled CaveSpidersDropCobwebs
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Chairs
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ChickensDropFeathers
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ClearItemFrames
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled CollectionEnchantment
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ColoredBundles
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ColoredNetherPortals
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled CompassOverlay
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled CoralSeaLanterns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled CoralSquids
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Core
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusic
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled EbonyWood
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled EditableSigns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled EndermitePowder
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraBoats
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraRecipes
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraTrades
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraWanderingTrades
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtractEnchantments
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled GentlePotionParticles
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled GoatsDropMutton
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled GrindableArmor
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled HoverSorting
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled HusksDropSand
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled HusksSpawnUnderground
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedFortressLoot
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedMansionLoot
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedMineshafts
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled InventoryTidying
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Kilns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled LavaBucketDestroysItems
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled LowerNoteblockPitch
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Lumberjacks
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled MapTooltip
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Mooblooms
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled MorePortalFrames
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled NoCropTrampling
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled NoPetDamage
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled NoPotionGlint
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled NoSpyglassScope
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled OpenBothDoors
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ParrotsStayOnShoulder
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled PathToDirt
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled PlayerPressurePlates
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled PortableCrafting
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled QuickReplant
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled RaidHorns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneLanterns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneSand
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled RepairElytraFromLeather
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled RepairNetheriteFromScrap
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled RepairTridentsFromShards
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ShowRepairCost
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxDragDrop
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltip
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled SmoothGlowstone
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled SnowAccumulation
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled StackableEnchantedBooks
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled StackablePotions
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled StackableStews
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled StraysDropBlueIce
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled StraysSpawnUnderground
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled StrongerAnvils
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled TotemWorksFromInventory
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantBarrels
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantBars
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantBookshelves
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantChains
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantChests
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantLadders
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantLanterns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantMobTextures
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled VillagersFollowEmeraldBlocks
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled WeatheringIron
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled WitchesDropLuck
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Enabled Woodcutters
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running AerialAffinityEnchantment
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running AllowTooExpensive
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running AmethystNoteBlock
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Atlases
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running AutoRestock
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running AzaleaWood
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running BatBuckets
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running BeaconsHealMobs
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Beekeepers
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running BlockOfEnderPearls
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running BlockOfGunpowder
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running BlockOfSugar
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Bookcases
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running CaveSpidersDropCobwebs
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Chairs
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ChickensDropFeathers
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ClearItemFrames
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running CollectionEnchantment
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ColoredBundles
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ColoredNetherPortals
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running CompassOverlay
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running CoralSeaLanterns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running CoralSquids
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Core
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusic
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running EbonyWood
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running EditableSigns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running EndermitePowder
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ExtraBoats
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ExtraRecipes
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ExtraTrades
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ExtraWanderingTrades
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ExtractEnchantments
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running GentlePotionParticles
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running GoatsDropMutton
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running GrindableArmor
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running HoverSorting
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running HusksDropSand
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running HusksSpawnUnderground
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ImprovedFortressLoot
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ImprovedMansionLoot
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ImprovedMineshafts
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running InventoryTidying
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Kilns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running LavaBucketDestroysItems
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running LowerNoteblockPitch
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Lumberjacks
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running MapTooltip
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Mooblooms
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running MorePortalFrames
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running NoCropTrampling
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running NoPetDamage
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running NoPotionGlint
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running NoSpyglassScope
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running OpenBothDoors
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ParrotsStayOnShoulder
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running PathToDirt
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running PlayerPressurePlates
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running PortableCrafting
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running QuickReplant
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running RaidHorns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running RedstoneLanterns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running RedstoneSand
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running RepairElytraFromLeather
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running RepairNetheriteFromScrap
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running RepairTridentsFromShards
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ShowRepairCost
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxDragDrop
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxTooltip
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running SmoothGlowstone
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running SnowAccumulation
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running StackableEnchantedBooks
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running StackablePotions
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running StackableStews
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running StraysDropBlueIce
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running StraysSpawnUnderground
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running StrongerAnvils
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running TotemWorksFromInventory
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantBarrels
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantBars
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantBookshelves
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantChains
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantChests
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantLadders
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantLanterns
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VariantMobTextures
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running VillagersFollowEmeraldBlocks
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running WeatheringIron
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running WitchesDropLuck
+[10:38:49] [Render thread/INFO]: [ModuleLoader] Running Woodcutters
+[10:38:49] [Render thread/INFO]: [STDOUT]: Loading Collective (Fabric) version 5.7.
+[10:38:49] [Render thread/INFO]: Consistency+ Main - Beginning initialization process
+[10:38:49] [Render thread/INFO]: Registered mossy_cobblestone_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_stone_brick_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_stone_brick_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_stone_brick_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_stone_brick_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_stone_brick_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_stone_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_stone_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_stone_corner_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_stone_corner_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_chiseled_stone as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_chiseled_stone as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_blackstone_brick_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_blackstone_brick_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_blackstone_brick_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_blackstone_brick_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_bricks as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_brick_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_brick_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_brick_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_brick_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_blackstone_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_blackstone_corner_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_blackstone_corner_pillar as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_chiseled_blackstone as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_chiseled_blackstone as a Block
+[10:38:49] [Render thread/INFO]: Registered mossy_carved_blackstone as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_carved_blackstone as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_nether_brick_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_nether_brick_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_nether_brick_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_nether_brick_fence_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_purpur_bricks as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_purpur_brick_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_purpur_brick_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_purpur_brick_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_purpur_brick_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_brick_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_brick_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_brick_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_brick_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_tile_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_tile_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_tile_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered cracked_deepslate_tile_gate as a Block
+[10:38:49] [Render thread/INFO]: Registered dirt_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered dirt_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered dirt_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered grass_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered grass_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered grass_wall as a Block
+[10:38:49] [Render thread/INFO]: Registered mycelium_slab as a Block
+[10:38:49] [Render thread/INFO]: Registered mycelium_stairs as a Block
+[10:38:49] [Render thread/INFO]: Registered mycelium_wall as a Block
+[10:38:49] [Render thread/INFO]: Filling the Ultimate Keyring from CPlus Blocks!
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_brick_slab[slab, brick, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_blackstone_brick_wall[wall, brick, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_carved_blackstone[carved, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_stone_corner_pillar[corner_pillar, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_purpur_brick_gate[gate, brick, purpur, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_tile_wall[wall, tile, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_tile_gate[gate, tile, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_blackstone_brick_gate[gate, brick, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_stone_brick_wall[wall, brick, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: dirt_slab[slab, dirt]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_purpur_brick_wall[wall, brick, purpur, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_brick_stairs[stairs, brick, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_stone_pillar[pillar, stone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mycelium_slab[slab, mycelium]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_blackstone_brick_slab[slab, brick, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_nether_brick_stairs[stairs, brick, nether, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_stone_pillar[pillar, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mycelium_wall[wall, mycelium]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: dirt_stairs[stairs, dirt]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_chiseled_blackstone[chiseled, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_chiseled_blackstone[chiseled, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_carved_blackstone[carved, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: grass_stairs[stairs, grass]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_stone_brick_stairs[stairs, brick, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_purpur_brick_slab[slab, brick, purpur, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_purpur_bricks[purpur_bricks, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: grass_wall[wall, grass]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_cobblestone_gate[gate, cobblestone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_brick_gate[gate, brick, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_blackstone_corner_pillar[corner_pillar, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_blackstone_brick_stairs[stairs, brick, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_pillar[pillar, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_nether_brick_slab[slab, brick, nether, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: grass_slab[slab, grass]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_purpur_brick_stairs[stairs, brick, purpur, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_chiseled_stone[chiseled, stone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mycelium_stairs[stairs, mycelium]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_stone_corner_pillar[corner_pillar, stone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_chiseled_stone[chiseled, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_brick_stairs[stairs, brick, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_brick_gate[gate, brick, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_brick_slab[slab, brick, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_bricks[blackstone_bricks, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_brick_wall[wall, brick, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_nether_brick_fence_gate[gate, brick, nether_fence, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_stone_brick_gate[gate, brick, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_tile_stairs[stairs, tile, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_corner_pillar[corner_pillar, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_stone_brick_slab[slab, brick, stone, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_stone_brick_gate[gate, brick, stone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: mossy_blackstone_brick_wall[wall, brick, blackstone, mossy]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_deepslate_tile_slab[slab, tile, deepslate, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: dirt_wall[wall, dirt]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_nether_brick_wall[wall, brick, nether, cracked]
+[10:38:49] [Render thread/INFO]: CPlus Blocks Key Ring: cracked_blackstone_pillar[pillar, blackstone, cracked]
+[10:38:49] [Render thread/INFO]: Consistency+ Main - Registration Checkpoint 1
+[10:38:49] [Render thread/INFO]: Consistency+ Main - Finished initialization process
+[10:38:49] [Render thread/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[10:38:49] [Render thread/INFO]: Saving Debugify
+[10:38:49] [Render thread/INFO]: Enabled 8/75 bugs!
+[10:38:49] [Render thread/INFO]: Successfully Debugify'd your game!
+[10:38:49] [Render thread/ERROR]: No data fixer registered for decorative_blocks:dummy
+[10:38:50] [Render thread/INFO]: Loaded Config! Regular deepslate extras are OFF
+[10:38:50] [Render thread/INFO]: Constructing common components for mod diagonalfences
+[10:38:50] [Render thread/INFO]: [DRIPPY LOADING SCREEN] FancyMenu detected!
+[10:38:50] [Render thread/INFO]: Constructing common components for mod easyanvils
+[10:38:50] [Render thread/INFO]: Loading client config for easyanvils
+[10:38:50] [Render thread/INFO]: Constructing common components for mod easymagic
+[10:38:50] [Render thread/INFO]: Loading client config for easymagic
+[10:38:50] [Render thread/INFO]: [bclib] Added Config edenring.blocks to auto sync (file hash)
+[10:38:50] [Render thread/INFO]: [bclib] Added Config edenring.items to auto sync (file hash)
+[10:38:50] [Render thread/INFO]: [bclib] Added Config edenring.entities to auto sync (file hash)
+[10:38:50] [Render thread/INFO]: [bclib] Added Config edenring.recipes to auto sync (file hash)
+[10:38:50] [Render thread/INFO]: [bclib] Added Config edenring.recipes to auto sync (file hash)
+[10:38:50] [Render thread/INFO]: [bclib] Added Config edenring.biomes to auto sync (file hash)
+[10:38:50] [Render thread/INFO]: [STDOUT]: endgoblintraders:opal_sword_potion, null
+[10:38:50] [Render thread/INFO]: [STDOUT]: [End Goblin Traders] Registered Items
+[10:38:50] [Render thread/INFO]: Loaded EveryCompat Twigs Module
+[10:38:50] [Render thread/INFO]: Loaded EveryCompat Another Furniture Module
+[10:38:50] [Render thread/INFO]: Loaded EveryCompat Architects Palette Module
+[10:38:50] [Render thread/INFO]: Loaded EveryCompat Farmersdelight Module
+[10:38:50] [Render thread/INFO]: [FANCYMENU] Loading mod in client-side mode!
+[10:38:50] [Render thread/INFO]: Farmer's Knives loaded!
+[10:38:50] [Render thread/INFO]: farsight mod initialized
+[10:38:50] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:edit_nbt
+[10:38:50] [Render thread/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[10:38:50] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_quests
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_team_data
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:update_task_progress
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:submit_task
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:claim_reward
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:claim_reward_response
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_editing_mode
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:get_emergency_items
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:create_other_team_data
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:display_completion_toast
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:display_reward_toast
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:display_item_reward_toast
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:toggle_pinned
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:toggle_pinned_response
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:update_team_data
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:set_custom_image
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_started
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_completed
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_started_reset
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:object_completed_reset
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:sync_lock
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:reset_reward
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:team_data_changed
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:change_progress
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:create_object
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:create_object_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:create_task_at
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:delete_object
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:delete_object_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:edit_object
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:edit_object_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:move_chapter
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:move_chapter_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:move_quest
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:move_quest_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:change_chapter_group
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:change_chapter_group_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbquests:move_chapter_group
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbquests:move_chapter_group_response
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbteams:sync_teams
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbteams:open_gui
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbteams:open_my_team_gui
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbteams:update_settings
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbteams:update_settings_response
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbteams:send_message
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbteams:send_message_response
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id ftbteams:update_presence
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id ftbteams:create_party
+[10:38:51] [Render thread/INFO]: Is initializing.
+[10:38:51] [Render thread/INFO]: Has successfully been initialized.
+[10:38:51] [Render thread/ERROR]: No data fixer registered for silver_bomb
+[10:38:51] [Render thread/ERROR]: Adding duplicate key 'ResourceKey[minecraft:worldgen/biome / galosphere:crystal_canyons]' to registry
+[10:38:51] [Render thread/INFO]: Beginning More Geodes initialization
+[10:38:51] [Render thread/ERROR]: Could not load More Geodes config, using default config instead. Failed with exception: java.io.FileNotFoundException: C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\geodes.properties (The system cannot find the file specified)
+[10:38:51] [Render thread/INFO]: More Geodes initialized!
+[10:38:51] [Render thread/INFO]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[10:38:51] [Render thread/INFO]: Registering S2C receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[10:38:51] [Render thread/INFO]: Start loading plugin from jade
+[10:38:51] [Render thread/INFO]: Start loading plugin from jade
+[10:38:51] [Render thread/INFO]: Start loading plugin from jade
+[10:38:51] [Render thread/INFO]: Mod initialized!
+[10:38:51] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[10:38:51] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[10:38:51] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[10:38:51] [Render thread/INFO]: Constructing common components for mod leavesbegone
+[10:38:51] [Render thread/INFO]: Constructing common components for mod magnumtorch
+[10:38:51] [Render thread/INFO]: Definitely not up to no good
+[10:38:51] [Render thread/INFO]: near features initialized.
+[10:38:51] [Render thread/INFO]: Let there be nears!
+[10:38:51] [Render thread/INFO]: Registering Items for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Blocks for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Entity Types for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Effects for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Potions for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Enchantments for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Particles for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Features for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering ConfiguredFeatures for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering PlacedFeatures for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: Registering Structures for netherdepthsupgrade
+[10:38:51] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[10:38:51] [Render thread/INFO]: Default JVM text encoding is: UTF-8
+[10:38:51] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[10:38:51] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[10:38:51] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerWhitelist.json...
+[10:38:51] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[10:38:51] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[10:38:51] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[10:38:51] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerWhitelist.json...
+[10:38:51] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[10:38:51] [Render thread/INFO]: NoFadeIn is running
+[10:38:51] [Render thread/INFO]: loading json file and contents for paintings.
+[10:38:51] [Render thread/INFO]: **Paintings++ no longer copies the base file outside if the mod. **
+[10:38:51] [Render thread/INFO]: Loaded json painting abstract_blue , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting abstract_rainbow , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting abstract_red , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting abstract_sunset , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting arachnophobe , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting barn_owl , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting big_z , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting blue_bird , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting bluesclues , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting borgia , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting cane , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting cat_black , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting cat_gray , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting cat_orange , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting cat , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting colorful_squares , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting crest , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting danger_zone , 32 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting decorative_gun , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting exit_down , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting exit_up , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting exit_left , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting exit_right , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_bat , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_chicken , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_cow , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_creeper , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_dog , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_enderman , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_pig , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_pigman , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_silverfish , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_skeleton , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_squid , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting face_zombie , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting fishes , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting flowers , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting fruits , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting ghost , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting glowlamp , 32 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting glowstone_hourglass , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting iluvmc , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting link , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting mine_prosperity , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting no_trespassing_for_mobs , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting ocelot , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting penguin , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting pig_on_a_cliff , 32 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting pkmn_blue , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting pkmn_red , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting pkmn_green , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting plains_hut , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting portrait_2 , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting portrait , 32 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting prison , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting prosperity , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting rest , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting skeleton , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting sky , 32 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting skyblock , 32 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting snake , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting snow_landscape , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting subaraki , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting synth_city , 16 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting tapistry_a , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting tapistry_b , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting tapistry_purple , 16 x 32
+[10:38:51] [Render thread/INFO]: Loaded json painting torched , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting waterfall , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting whale , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting wheat_field , 32 x 16
+[10:38:51] [Render thread/INFO]: Loaded json painting wolf_in_wheat , 32 x 16
+[10:38:51] [Render thread/INFO]: Reading out ResourcePacks to find painting related json files
+[10:38:51] [Render thread/INFO]: Reading `Default-Dark-Mode-1.19-v1.3.4.zip`
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/ERROR]: Invalid ResourcePack  Default-Dark-Mode-1.19-v1.3.4.zip
+[10:38:51] [Render thread/ERROR]: Illegal character in path at index 75: file:/C:/Users/tripl/AppData/Roaming/PrismLauncher/instances/Better%20MC%20[FABRIC]%201.19.2/minecraft/./resourcepacks/Default-Dark-Mode-1.19-v1.3.4.zip
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/INFO]: Reading `Graphics`
+[10:38:51] [Render thread/INFO]: Reading `NoBushyLeaves.zip`
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/ERROR]: Invalid ResourcePack  NoBushyLeaves.zip
+[10:38:51] [Render thread/ERROR]: Illegal character in path at index 75: file:/C:/Users/tripl/AppData/Roaming/PrismLauncher/instances/Better%20MC%20[FABRIC]%201.19.2/minecraft/./resourcepacks/NoBushyLeaves.zip
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/INFO]: Reading `Stay_True_1.19.zip`
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/ERROR]: Invalid ResourcePack  Stay_True_1.19.zip
+[10:38:51] [Render thread/ERROR]: Illegal character in path at index 75: file:/C:/Users/tripl/AppData/Roaming/PrismLauncher/instances/Better%20MC%20[FABRIC]%201.19.2/minecraft/./resourcepacks/Stay_True_1.19.zip
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/INFO]: Reading `Xaero's Minimap - Mod Icons.zip`
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/ERROR]: Invalid ResourcePack  Xaero's Minimap - Mod Icons.zip
+[10:38:51] [Render thread/ERROR]: Illegal character in path at index 75: file:/C:/Users/tripl/AppData/Roaming/PrismLauncher/instances/Better%20MC%20[FABRIC]%201.19.2/minecraft/./resourcepacks/Xaero's%20Minimap%20-%20Mod%20Icons.zip
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/INFO]: Reading `xali-s-Enchanted-Books-16x-v0.10.1.zip`
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/ERROR]: Invalid ResourcePack  xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:38:51] [Render thread/ERROR]: Illegal character in path at index 75: file:/C:/Users/tripl/AppData/Roaming/PrismLauncher/instances/Better%20MC%20[FABRIC]%201.19.2/minecraft/./resourcepacks/xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:38:51] [Render thread/WARN]: ************************************
+[10:38:51] [Render thread/INFO]: Registered painting abstract_blue
+[10:38:51] [Render thread/INFO]: Registered painting abstract_rainbow
+[10:38:51] [Render thread/INFO]: Registered painting abstract_red
+[10:38:51] [Render thread/INFO]: Registered painting abstract_sunset
+[10:38:51] [Render thread/INFO]: Registered painting arachnophobe
+[10:38:51] [Render thread/INFO]: Registered painting barn_owl
+[10:38:51] [Render thread/INFO]: Registered painting big_z
+[10:38:51] [Render thread/INFO]: Registered painting blue_bird
+[10:38:51] [Render thread/INFO]: Registered painting bluesclues
+[10:38:51] [Render thread/INFO]: Registered painting borgia
+[10:38:51] [Render thread/INFO]: Registered painting cane
+[10:38:51] [Render thread/INFO]: Registered painting cat_black
+[10:38:51] [Render thread/INFO]: Registered painting cat_gray
+[10:38:51] [Render thread/INFO]: Registered painting cat_orange
+[10:38:51] [Render thread/INFO]: Registered painting cat
+[10:38:51] [Render thread/INFO]: Registered painting colorful_squares
+[10:38:51] [Render thread/INFO]: Registered painting crest
+[10:38:51] [Render thread/INFO]: Registered painting danger_zone
+[10:38:51] [Render thread/INFO]: Registered painting decorative_gun
+[10:38:51] [Render thread/INFO]: Registered painting exit_down
+[10:38:51] [Render thread/INFO]: Registered painting exit_up
+[10:38:51] [Render thread/INFO]: Registered painting exit_left
+[10:38:51] [Render thread/INFO]: Registered painting exit_right
+[10:38:51] [Render thread/INFO]: Registered painting face_bat
+[10:38:51] [Render thread/INFO]: Registered painting face_chicken
+[10:38:51] [Render thread/INFO]: Registered painting face_cow
+[10:38:51] [Render thread/INFO]: Registered painting face_creeper
+[10:38:51] [Render thread/INFO]: Registered painting face_dog
+[10:38:51] [Render thread/INFO]: Registered painting face_enderman
+[10:38:51] [Render thread/INFO]: Registered painting face_pig
+[10:38:51] [Render thread/INFO]: Registered painting face_pigman
+[10:38:51] [Render thread/INFO]: Registered painting face_silverfish
+[10:38:51] [Render thread/INFO]: Registered painting face_skeleton
+[10:38:51] [Render thread/INFO]: Registered painting face_squid
+[10:38:51] [Render thread/INFO]: Registered painting face_zombie
+[10:38:51] [Render thread/INFO]: Registered painting fishes
+[10:38:51] [Render thread/INFO]: Registered painting flowers
+[10:38:51] [Render thread/INFO]: Registered painting fruits
+[10:38:51] [Render thread/INFO]: Registered painting ghost
+[10:38:51] [Render thread/INFO]: Registered painting glowlamp
+[10:38:51] [Render thread/INFO]: Registered painting glowstone_hourglass
+[10:38:51] [Render thread/INFO]: Registered painting iluvmc
+[10:38:51] [Render thread/INFO]: Registered painting link
+[10:38:51] [Render thread/INFO]: Registered painting mine_prosperity
+[10:38:51] [Render thread/INFO]: Registered painting no_trespassing_for_mobs
+[10:38:51] [Render thread/INFO]: Registered painting ocelot
+[10:38:51] [Render thread/INFO]: Registered painting penguin
+[10:38:51] [Render thread/INFO]: Registered painting pig_on_a_cliff
+[10:38:51] [Render thread/INFO]: Registered painting pkmn_blue
+[10:38:51] [Render thread/INFO]: Registered painting pkmn_red
+[10:38:51] [Render thread/INFO]: Registered painting pkmn_green
+[10:38:51] [Render thread/INFO]: Registered painting plains_hut
+[10:38:51] [Render thread/INFO]: Registered painting portrait_2
+[10:38:51] [Render thread/INFO]: Registered painting portrait
+[10:38:51] [Render thread/INFO]: Registered painting prison
+[10:38:51] [Render thread/INFO]: Registered painting prosperity
+[10:38:51] [Render thread/INFO]: Registered painting rest
+[10:38:51] [Render thread/INFO]: Registered painting skeleton
+[10:38:51] [Render thread/INFO]: Registered painting sky
+[10:38:51] [Render thread/INFO]: Registered painting skyblock
+[10:38:51] [Render thread/INFO]: Registered painting snake
+[10:38:51] [Render thread/INFO]: Registered painting snow_landscape
+[10:38:51] [Render thread/INFO]: Registered painting subaraki
+[10:38:51] [Render thread/INFO]: Registered painting synth_city
+[10:38:51] [Render thread/INFO]: Registered painting tapistry_a
+[10:38:51] [Render thread/INFO]: Registered painting tapistry_b
+[10:38:51] [Render thread/INFO]: Registered painting tapistry_purple
+[10:38:51] [Render thread/INFO]: Registered painting torched
+[10:38:51] [Render thread/INFO]: Registered painting waterfall
+[10:38:51] [Render thread/INFO]: Registered painting whale
+[10:38:51] [Render thread/INFO]: Registered painting wheat_field
+[10:38:51] [Render thread/INFO]: Registered painting wolf_in_wheat
+[10:38:52] [Render thread/INFO]: Constructing common components for mod pickupnotifier
+[10:38:52] [Render thread/INFO]: Loading client config for pickupnotifier
+[10:38:52] [Render thread/INFO]: Constructing common components for mod puzzleslib
+[10:38:52] [Render thread/INFO]: [jamlib] Registered config for rightclickharvest
+[10:38:52] [Render thread/INFO]: Mod initialized!
+[10:38:52] [Render thread/INFO]: [REI] Config loaded
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider AdornReiServer [adorn] for REIPlugin
+[10:38:52] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider AdornReiClient [adorn] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider APPlugin [architects_palette] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider CharmReiClientPlugin [charm] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DBServerPlugin [decorative_blocks] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DBClientPlugin [decorative_blocks] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider ExpandedDelightREI [expandeddelight] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider FarmersDelightModREI [farmersdelight] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider FTBQuestsREIIntegration [ftbquests] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider OxidizedREIPlugin [oxidized] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider REPClientPlugin [roughlyenoughprofessions] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider PluginEntry [roughlyenoughresources] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider SpiritPlugin [spirit] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider REICompat [the_bumblezone] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [toms_storage] for REIPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider AdornReiServer [adorn] for REIServerPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider DBServerPlugin [decorative_blocks] for REIServerPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[10:38:52] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[10:38:52] [Render thread/INFO]: [RER] RoughlyEnoughPacketSize?  Possibly.
+[10:38:52] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughresources:asi
+[10:38:52] [Render thread/INFO]: Setting up discord client
+[10:38:52] [Render thread/INFO]: Trying to read config file...
+[10:38:52] [Render thread/INFO]: A config file was found, loading it..
+[10:38:52] [Render thread/INFO]: Successfully loaded config file.
+[10:38:52] [Render thread/ERROR]: Error parsing config file for mod spirit
+[10:38:52] [Render thread/ERROR]: Error writing config file for mod spirit
+[10:38:52] [Render thread/INFO]: Pre-init started!
+[10:38:52] [Render thread/INFO]: Registering config
+[10:38:52] [Render thread/INFO]: Registering particles
+[10:38:52] [Render thread/INFO]: Registering items
+[10:38:52] [Render thread/INFO]: Registering entities
+[10:38:52] [Render thread/ERROR]: No data fixer registered for strawgolem
+[10:38:52] [Render thread/ERROR]: No data fixer registered for strawnggolem
+[10:38:52] [Render thread/INFO]: Registering sounds
+[10:38:52] [Render thread/INFO]: Registering capabilities
+[10:38:52] [Render thread/INFO]: Init started!
+[10:38:52] [Render thread/INFO]: Registering packet IDs
+[10:38:52] [Render thread/INFO]: Registering packets
+[10:38:52] [pool-5-thread-1/INFO]: Discord client ready
+[10:38:52] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[10:38:52] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[10:38:52] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[10:38:52] [Render thread/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[10:38:52] [Render thread/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[10:38:52] [Render thread/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[10:38:52] [Render thread/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[10:38:53] [Render thread/INFO]: Registered region terrestria:overworld to index 5 for type OVERWORLD
+[10:38:53] [Render thread/INFO]: Registered region terrestria:overworld_rare to index 6 for type OVERWORLD
+[10:38:53] [Render thread/INFO]: Enabling Terrestria's TerraBlender worldgen module.
+[10:38:53] [Render thread/INFO]: [STDOUT]: thonkutil-capes-v1 Init
+[10:38:53] [Render thread/INFO]: Config loaded
+[10:38:53] [Render thread/INFO]: Tom's Storage Setup starting
+[10:38:53] [Render thread/INFO]: Constructing common components for mod tradingpost
+[10:38:53] [Render thread/INFO]: Initializing Twigs
+[10:38:53] [Render thread/INFO]: Initialized Twigs (took 59ms)
+[10:38:53] [Render thread/INFO]: Constructing common components for mod visualworkbench
+[10:38:53] [Render thread/INFO]: Loading client config for visualworkbench
+[10:38:53] [Thread-1/INFO]: Reloading client config for visualworkbench
+[10:38:53] [Thread-1/INFO]: Reloading client config for visualworkbench
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2635 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2755 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2762 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2610 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2612 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2698 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2809 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2644 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2730 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_5747 not found for raknet multi-channel
+[10:38:53] [Render thread/INFO]: Mixing client.MixinClientboundHelloPacket from nochatreports.mixins.json into net.minecraft.class_2905
+[10:38:53] [Render thread/INFO]: Compatibility version 15
+[10:38:53] [Render thread/INFO]: Loading plugins
+[10:38:53] [Render thread/INFO]: Loaded 0 plugin(s)
+[10:38:53] [Render thread/INFO]: Initializing plugins
+[10:38:53] [Render thread/INFO]: Initialized 0 plugin(s)
+[10:38:53] [Render thread/INFO]: Loading up Void Totem (Fabric)
+[10:38:53] [Render thread/INFO]: Loaded 5 Static Content files for wolveswitharmor:wolf_armor
+[10:38:54] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[10:38:54] [Render thread/INFO]: Constructing client components for mod barteringstation
+[10:38:54] [Render thread/INFO]: [betterend] Registered betterend:old_bulbis_gardens
+[10:38:54] [Thread-8/INFO]: [bclib] Received Version Info for minecraft=1.19.2, loader=fabric
+[10:38:54] [Thread-8/INFO]: [bclib]  - bclib:2.1.2 (update available)
+[10:38:54] [Thread-8/INFO]: [bclib]  - betterend:2.1.1
+[10:38:54] [Thread-8/INFO]: [bclib]  - betternether:7.1.1
+[10:38:54] [Render thread/INFO]: Loaded
+[10:38:54] [Render thread/ERROR]: java.io.FileNotFoundException: C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\betteradvancements.json (The system cannot find the file specified)
+[10:38:54] [Render thread/INFO]: [BetterF3] Loading...
+[10:38:54] [Render thread/INFO]: [BetterF3] All done!
+[10:38:54] [Render thread/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[10:38:54] [Render thread/INFO]: Loaded 'betterstats' config.
+[10:38:54] [Render thread/INFO]: Could not load 'betterstats' config for the 'BSMobStatRenderConfig'. File not found.
+[10:38:54] [Render thread/INFO]: Could not load 'betterstats' config for the 'BSWikiLinkConfig'. File not found.
+[10:38:54] [Render thread/INFO]: Constructing client components for mod bettertridents
+[10:38:54] [Render thread/INFO]: [STDOUT]: Init client for Bountiful
+[10:38:54] [Render thread/INFO]: BYG: "Client Setup" Event Complete!
+[10:38:55] [Render thread/INFO]: Loading 62 entities from Custom Entity Models 0.7.1
+[10:38:55] [Render thread/WARN]: @Final field field_21708:Lnet/minecraft/class_2960; in biomemakeover-common.mixins.json:client.SheetsMixin from mod biomemakeover should be final
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled AtlasesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled AzaleaWoodClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled BookcasesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled ChairsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled ClearItemFramesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled ColoredBundlesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled ColoredNetherPortalsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled CompassOverlayClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled CoralSquidsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled CoreClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusicClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled EbonyWoodClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled EndermitePowderClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled ExtractEnchantmentsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled HoverSortingClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled InventoryTidyingClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled KilnsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled MapTooltipClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled MoobloomsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled PortableCraftingClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneLanternsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltipClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantBarsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantChainsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantChestsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantLaddersClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantLanternsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantMobTexturesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled WoodcuttersClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running AtlasesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running AzaleaWoodClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running BookcasesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running ChairsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running ClearItemFramesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running ColoredBundlesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running ColoredNetherPortalsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running CompassOverlayClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running CoralSquidsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running CoreClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusicClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running EbonyWoodClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running EndermitePowderClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running ExtractEnchantmentsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running HoverSortingClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running InventoryTidyingClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running KilnsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running MapTooltipClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running MoobloomsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running PortableCraftingClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running RedstoneLanternsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxTooltipClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running VariantBarsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running VariantChainsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running VariantChestsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running VariantLaddersClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running VariantLanternsClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running VariantMobTexturesClient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running WoodcuttersClient
+[10:38:55] [Render thread/INFO]: [Core] Using sound channel/source: ambient
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled BiomeAmbience
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled Core
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Enabled SituationalAmbience
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running BiomeAmbience
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running Core
+[10:38:55] [Render thread/INFO]: [ModuleLoader] Running SituationalAmbience
+[10:38:55] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[10:38:55] [Render thread/INFO]: [citresewn] Registering CIT Types
+[10:38:55] [Render thread/INFO]: Consistency+ Main - Starting client initialization
+[10:38:55] [Render thread/INFO]: Consistency+ Main - Finished client initialization
+[10:38:55] [Render thread/INFO]: Re-caching descriptions because json doesn't match config.
+[10:38:55] [Render thread/INFO]: Connecting to 'bugs.mojang.com' to cache bug descriptions!
+[10:38:55] [Render thread/INFO]: Constructing client components for mod diagonalfences
+[10:38:55] [Render thread/INFO]: Constructing client components for mod easyanvils
+[10:38:55] [Render thread/INFO]: Constructing client components for mod easymagic
+[10:38:55] [Render thread/INFO]: Loaded config file.
+[10:38:55] [Render thread/INFO]: Saved config file.
+[10:38:55] [Render thread/INFO]: Loading Entity Texture Features, Thank you for 1 Million downloads :)
+[10:38:55] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[10:38:55] [Render thread/INFO]: Beginning More Geodes client initialization
+[10:38:55] [Render thread/INFO]: More Geodes client initialized!
+[10:38:56] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
+[10:38:56] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack 🚀
+[10:38:56] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[10:38:56] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[10:38:56] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[10:38:56] [Render thread/ERROR]: Mod illuminations provides a broken implementation of ModMenuApi
+net.fabricmc.loader.api.EntrypointException: Exception while loading entries for entrypoint 'modmenu' provided by 'illuminations'
+	at Not Enough Crashes deobfuscated stack trace.(1.19.2+build.28) ~[?:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:56) ~[fabric-loader-0.14.9.jar:?]
+	at com.terraformersmc.modmenu.ModMenu.lambda$onInitializeClient$0(ModMenu.java:71) ~[modmenu-4.0.6.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.terraformersmc.modmenu.ModMenu.onInitializeClient(ModMenu.java:67) ~[modmenu-4.0.6.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.9.jar:?]
+	at fudge.notenoughcrashes.fabric.mixinhandlers.ModLoaders.fabricEntrypoints(ModLoaders.java:9) ~[notenoughcrashes-4.1.8+1.19.2-fabric.jar:?]
+	at net.minecraft.client.MinecraftClient.redirect$fml000$catchFabricInit(MinecraftClient:27954) ~[?:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient:459) ~[?:?]
+	at net.minecraft.client.main.Main.main(Main:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.prismlauncher.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.prismlauncher.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:176) [NewLaunch.jar:?]
+	at org.prismlauncher.impl.OneSixLauncher.launch(OneSixLauncher.java:186) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:144) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:74) [NewLaunch.jar:?]
+Caused by: net.fabricmc.loader.api.LanguageAdapterException: java.lang.ClassNotFoundException: ladysnake.illuminations.client.IlluminationsModMenuIntegration
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:52) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.14.9.jar:?]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: ladysnake.illuminations.client.IlluminationsModMenuIntegration
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:145) ~[fabric-loader-0.14.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.14.9.jar:?]
+	... 21 more
+[10:38:56] [Render thread/INFO]: Registering cloth config compat
+[10:38:56] [Render thread/INFO]: Using Cloth Config GUI
+[10:38:56] [Render thread/INFO]: Registering Compat Wood Blocks
+[10:38:56] [Render thread/INFO]: Registering Compat Leaves Blocks
+[10:38:56] [Render thread/INFO]: Registered 716 compat blocks making up 7.3398256% of total blocks registered
+[10:38:56] [Render thread/ERROR]: No data fixer registered for dispenser_minecart
+[10:38:56] [Render thread/ERROR]: No data fixer registered for falling_urn
+[10:38:56] [Render thread/ERROR]: No data fixer registered for falling_ash
+[10:38:56] [Render thread/ERROR]: No data fixer registered for falling_lantern
+[10:38:56] [Render thread/ERROR]: No data fixer registered for falling_sack
+[10:38:56] [Render thread/ERROR]: No data fixer registered for brick_projectile
+[10:38:56] [Render thread/ERROR]: No data fixer registered for bomb
+[10:38:56] [Render thread/ERROR]: No data fixer registered for rope_arrow
+[10:38:56] [Render thread/ERROR]: No data fixer registered for slingshot_projectile
+[10:38:56] [Render thread/INFO]: Finished mod setup in: 30 ms
+[10:38:57] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[10:38:57] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[10:38:57] [Render thread/INFO]: Mixing client.AccessorDisconnectedScreen from nochatreports.mixins.json into net.minecraft.class_419
+[10:38:57] [Render thread/INFO]: Client initialization...
+[10:38:57] [Render thread/INFO]: Loading Open Parties and Claims!
+[10:38:57] [Render thread/INFO]: OptiGUI initialized.
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider AdornReiClient [adorn] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider APPlugin [architects_palette] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider CharmReiClientPlugin [charm] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider DBClientPlugin [decorative_blocks] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider ExpandedDelightREI [expandeddelight] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider FarmersDelightModREI [farmersdelight] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider FTBQuestsREIIntegration [ftbquests] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider OxidizedREIPlugin [oxidized] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider REPClientPlugin [roughlyenoughprofessions] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider PluginEntry [roughlyenoughresources] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider SpiritPlugin [spirit] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider REICompat [the_bumblezone] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [toms_storage] for REIClientPlugin
+[10:38:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[10:38:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[10:38:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughresources:swds_start
+[10:38:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughresources:swds_chunk
+[10:38:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughresources:swds_done
+[10:38:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughresources:sli
+[10:38:57] [Render thread/INFO]: Client init started!
+[10:38:57] [Render thread/INFO]: Registering particle factory
+[10:38:57] [Render thread/INFO]: Registering entity renderers
+[10:38:57] [Render thread/INFO]: Loaded config file.
+[10:38:57] [Render thread/INFO]: Saved config file.
+[10:38:57] [Render thread/INFO]: Saving config to C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\toolstats.json.
+[10:38:57] [Render thread/INFO]: Constructing client components for mod tradingpost
+[10:38:57] [Render thread/INFO]: Initializing Twigs-CLIENT
+[10:38:57] [Render thread/INFO]: Initialized Twigs-CLIENT (took 1ms)
+[10:38:57] [Render thread/INFO]: Constructing client components for mod visualworkbench
+[10:38:57] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[10:38:58] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[10:38:59] [Render thread/INFO]: Mixing client.MixinOptions from nochatreports.mixins.json into net.minecraft.class_315
+[10:38:59] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$1(Ljava/lang/Boolean;)V to md2aeb5f$lambda$onlyShowSecureChat$1$0 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[10:38:59] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Lnet/minecraft/class_2561;Ljava/lang/Boolean;)Lnet/minecraft/class_2561; to md2aeb5f$lambda$onlyShowSecureChat$0$1 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[10:39:00] [Render thread/INFO]: Mixing client.MixinChatComponent from nochatreports.mixins.json into net.minecraft.class_338
+[10:39:00] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md2aeb5f$lambda$modifyGUIMessage$1$0 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[10:39:00] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md2aeb5f$lambda$modifyGUIMessage$0$1 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[10:39:00] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[10:39:00] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create_$md$2aeb5f$0 in nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[10:39:00] [ForkJoinPool.commonPool-worker-11/WARN]: [Iris Update Check] Cached update file detected, using that!
+[10:39:00] [Render thread/INFO]: Preparing Resource Pack injection.
+[10:39:00] [Render thread/INFO]: Successfully injected 0/0 packs from C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\openloader\resources.
+[10:39:00] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[10:39:00] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[10:39:00] [Render thread/INFO]: Debug functionality is disabled.
+[10:39:00] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[10:39:00] [Render thread/INFO]: Shaders are disabled
+[10:39:00] [Render thread/INFO]: ARRP register - before vanilla
+[10:39:00] [Render thread/INFO]: ARRP register - after vanilla
+[10:39:00] [Render thread/INFO]: Preparing Resource Pack injection.
+[10:39:00] [Render thread/INFO]: Successfully injected 0/0 packs from C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\openloader\resources.
+[10:39:00] [Render thread/WARN]: Removed resource pack continuity/default from options because it doesn't seem to exist anymore
+[10:39:00] [Render thread/WARN]: Removed resource pack continuity/glass_pane_culling_fix from options because it doesn't seem to exist anymore
+[10:39:00] [Render thread/WARN]: Removed resource pack lambdabettergrass/default from options because it doesn't seem to exist anymore
+[10:39:00] [FTB Backups Config Watcher 0/INFO]: Config at C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\ftbbackups2.json has changed, reloaded!
+[10:39:01] [Render thread/INFO]: [bclib] Found End Biome betterend:nightshade_redwoods that was not registers with fabric or bclib. Assuming end-land Biome...
+[10:39:01] [Render thread/INFO]: [bclib] Found End Biome betterend:old_bulbis_gardens that was not registers with fabric or bclib. Assuming end-land Biome...
+[10:39:01] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (67893697)
+    biomes     = 26
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=square, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[10:39:01] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (6d9e4aca)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square}
+[10:39:01] [Render thread/INFO]: [bclib] Found End Biome betterend:nightshade_redwoods that was not registers with fabric or bclib. Assuming end-land Biome...
+[10:39:01] [Render thread/INFO]: [bclib] Found End Biome betterend:old_bulbis_gardens that was not registers with fabric or bclib. Assuming end-land Biome...
+[10:39:01] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (3a6b74cd)
+    biomes     = 26
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[10:39:01] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (60bdbac8)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex}
+[10:39:01] [Render thread/INFO]: Hardware information:
+[10:39:01] [Render thread/INFO]: CPU: 12x 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz
+[10:39:01] [Render thread/INFO]: GPU: NVIDIA GeForce GTX 1650/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 511.65)
+[10:39:01] [Render thread/INFO]: OS: Windows 11 (10.0)
+[10:39:01] [Render thread/INFO]: Mixing client.MixinProfileKeyPairManager from nochatreports.mixins.json into net.minecraft.class_7434
+[10:39:01] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[10:39:02] [Render thread/INFO]: Mixing client.MixinChatListener from nochatreports.mixins.json into net.minecraft.class_7594
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/No Orange Grass/grass.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/No Orange Grass/readme.txt, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/Orange Oak Taiga Leaves+Vines/foliage.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/Orange Oak Taiga Leaves+Vines/readme.txt, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_axe.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_boots.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_chestplate.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_helmet.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_hoe.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_leggings.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_pickaxe.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_shovel.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_sword.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/pack.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/readme.txt, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_boots.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_chestplate.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_helmet.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_leggings.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/models/armor/cool netherite/netherite_layer_1.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/models/armor/cool netherite/netherite_layer_2.png, ignoring
+[10:39:02] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/models/armor/cool netherite/readme.txt, ignoring
+[10:39:02] [Render thread/ERROR]: Non [a-z0-9/._-] character in path of location: betterend:textures/item/thermal fungus.png
+[10:39:02] [Render thread/ERROR]: Non [a-z0-9/._-] character in path of location: byg:textures/block/bulbis/crafting_table_top .png
+[10:39:02] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Additional Structures, Adorn, Runtime Resource Pack, AdventureZ, Animatica, Another Furniture, AppleSkin, Architect's Palette Fabric, AttributeFix, Axolotl Item Fix, Bartering Station, BetterCompatibilityChecker, BCLib, Better Advancements, Better End, BetterF3, Better Mount HUD, Better Nether, Better Statistics Screen, Better Tridents, BHMenu-Fabric, Biome Makeover, Blur (Fabric), Bookshelf, Bosses of Mass Destruction (Beta), Bountiful, Oh The Biomes You'll Go, CaffeineConfig, Cardinal Components API, Cardinal Components API (base), Cardinal Components API (blocks), Cardinal Components API (chunks), Cardinal Components API (entities), Cardinal Components API (items), Cardinal Components API (world saves), Cardinal Components API (scoreboard), Cardinal Components API (worlds), Custom Entity Models, Charm, Charm of Undying, Charmonium, Chat Heads, Cherished Worlds, Chubby Stuff, CIT Resewn, CIT Resewn: Defaults, CleanCut, Cloth Config v8, Clumps, Collective (Fabric), Colormatic, Comforts, completeconfig-base, conditional mixin, Consistency Plus, Controlling For Fabric, Crawl, Creatures Of The Snow, Cull Less Leaves, DarkPaintings, Dawn API, Debugify, Decorative Blocks, Deepslate Cutting, DragonLoot, Drippy Loading Screen, Duckling, When Dungeons Arise, Dynamic FPS, Easy Anvils, Easy Magic, Ecologics, EdenRing, Effective, EnchantmentDescriptions, End Goblin Traders, Enhanced Block Entities, Entity Texture Features, EntityCulling-Fabric, Equipment Compare, Every Compat, Expanded Delight, Extended Armor Bars, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Language Kotlin, Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Fabrishot, Fake Player API, Falling Leaves, FallingTree, FancyMenu, Farmer's Delight, Farmer's Knives, Farsight Mod, Forge Config API Port, Frame, Frame Base, Frame Blocks (v0), Frame Config (v0), Frame Content Registries (v0), Frame Enchantments (v0), Frame Game Rules (v0), Frame Items (v0), Frame Loot Tables (v0), Frame Registries (v0), Frame Rendering (v0), Frame Tabbed Item Groups (v0), Frame Data Generation Helpers (v0), Frame Woods (v0), Friends&Foes, FTB Backups 2, FTB Library, FTB Quests, FTB Teams, Fabric Waystones, Galosphere, Geckolib, More Geodes, Go Fish, Goblin Traders, Goodall, GraphUtil-Fabric, Highlighter, Illuminations, Indium, Inmis, InmisAddon, Inventory HUD +, Iris, Item Filters, Item Model Fix, Jade, JamLib, Kambrik, KleeSlabs, Konkrete, Krypton, LambDynamicLights, Language Reload, LazyDFU, libIPN, Lithium, Maelstrom Library, Magnum Torch, More Axolotl Variants Mod, memory Leak Fix, MidnightLib, MixinTrace, Manningham Mills, Mod Menu, Moonlight, More Babies, MoreChatHistory, Vanilla Structure Mod, Naturalist, Nature's Compass, Nears, Nether Depths Upgrade, NetherPortalFix, No Chat Reports, No Fade, NotEnoughAnimations, Not Enough Crashes, OmegaConfig, On Soul Fire, OpenLoader, Open Parties and Claims, OptiGUI, oωo, Oxidized, Paintings++, Patchouli, PolyLib, Polymorph, Pride Lib, Puzzle, Puzzle Base, Puzzle GUI, Puzzle Models, Puzzle Splash Screen, Quartz Elevator, Reese's Sodium Options, Repurposed Structures, Right Click Harvest, Roughly Enough Items, Roughly Enough Professions, Roughly Enough Resources, Satin, Simple Discord Rich Presence, Fabric Seasons, 3d Skin Layers, Smooth Boot, Smooth chunk save Mod, Sod, Sodium, Sodium Extra, spark, Spirit, SpruceUI, Starlight, Starter Kit (Fabric), Static Data, Stonecutter Recipe Tags, Straw Golem, Supplementaries, Tax Free Levels, TerraBlender, Terraform Biome Remapper API (v1), Terraform Config API (v1), Terraform Dirt API (v1), Terraform Shapes API (v1), Terraform Surfaces API (v1), Terraform Tree API (v1), Terraform Wood API (v1), Terrestria, Terrestria: Client, Terrestria: Common, Terrestria: World Generation, The Bumblezone - Fabric, ThonkUtil, ThonkUtil Base, ThonkUtil Capes (v1), ThonkUtil Coords (v1), ThonkUtil Customization (v1), ThonkUtil Legacy, ThonkUtil ModChecker (v1), ThonkUtil Potions (v0), ThonkUtil TitleScreen (v1), ThonkUtil Trades (v1), Tips, Tom's Simple Storage Mod, ToolStats, Trading Post, Transparent, Trinkets, Twigs, Universal Ores, Vein Mining, Villager Names, Visuality, Very Many Players, Simple Voice Chat, Void Totem, VoidZ, Windchimes, Wolves With Armor, Xaero's Minimap, Xaero's World Map, XP Storage, XP Storage - Trinkets, YetAnotherConfigLib, You're in Grave Danger, Zoomify), Supplementaries Generated Pack, Stay_True_1.19.zip, NoBushyLeaves.zip, xali-s-Enchanted-Books-16x-v0.10.1.zip, Xaero's Minimap - Mod Icons.zip, Default-Dark-Mode-1.19-v1.3.4.zip, charmonium/journeyman, Everycomp Generated Pack, Moonlight Generated Pack, __MoreMcmeta Internal__
+[10:39:02] [Render thread/INFO]: ARRP register - before vanilla
+[10:39:02] [Render thread/INFO]: ARRP register - after vanilla
+[10:39:02] [Render thread/INFO]: Reloading DashLoader. [mod-hash: DEE466DA050DB6B0073DE50EFEFBABCB] [resource-hash: D5A679C0FAEC806CE63981C6ACAA1525]
+[10:39:02] [Render thread/INFO]: [46m[30m DashLoader Status change WRITE
+[0m
+[10:39:02] [Render thread/INFO]: Created WRITE data manager
+[10:39:02] [Render thread/INFO]: Reloaded DashLoader
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: charm:acquisition is not in the enchantment registry @L4 in minecraft:optifine/cit/acquisition.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager1.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager2.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager3.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager4.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager5.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager6.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: illagers_plus:illagers_bane is not in the enchantment registry @L4 in minecraft:optifine/cit/bane_of_illager7.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: alexsmobs:board_return is not in the enchantment registry @L4 in minecraft:optifine/cit/board_return.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: betterendforge:end_veil is not in the enchantment registry @L4 in minecraft:optifine/cit/end_veil.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: alexsmobs:lavawax is not in the enchantment registry @L4 in minecraft:optifine/cit/lavawax.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: astralsorcery:night_vision is not in the enchantment registry @L4 in minecraft:optifine/cit/night_vision.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: astralsorcery:scorching_heat is not in the enchantment registry @L4 in minecraft:optifine/cit/scorching_heat.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: alexsmobs:serpentfriend is not in the enchantment registry @L4 in minecraft:optifine/cit/serpent_friend.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: alexsmobs:straddle_jump is not in the enchantment registry @L4 in minecraft:optifine/cit/straddle_jump1.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: alexsmobs:straddle_jump is not in the enchantment registry @L4 in minecraft:optifine/cit/straddle_jump2.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: alexsmobs:straddle_jump is not in the enchantment registry @L4 in minecraft:optifine/cit/straddle_jump3.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/ERROR]: [citresewn] Warning: charm:tinted is not in the enchantment registry @L4 in minecraft:optifine/cit/tinted.properties from xali-s-Enchanted-Books-16x-v0.10.1.zip
+[10:39:02] [Worker-Main-3/INFO]: [citresewn] Loading item CIT models...
+[10:39:02] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/cut_sandstone.json' in resourcepack: 'Stay_True_1.19.zip' for variant: 'axis=z': Unknown blockstate property: 'axis'
+[10:39:02] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/cut_sandstone.json' in resourcepack: 'Stay_True_1.19.zip' for variant: 'axis=x': Unknown blockstate property: 'axis'
+[10:39:02] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/cut_sandstone.json' in resourcepack: 'Stay_True_1.19.zip' for variant: 'axis=y': Unknown blockstate property: 'axis'
+[10:39:02] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Everycomp Generated Pack in: 593 ms
+[10:39:02] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Generated Pack in: 0 ms
+[10:39:02] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Supplementaries Generated Pack in: 91 ms
+[10:39:02] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[10:39:02] [Render thread/INFO]: [STDOUT]: [KONKRETE] Running PostLoadingEvents for mod: fancymenu
+[10:39:02] [Render thread/INFO]: [STDOUT]: [KONKRETE] PostLoadingEvents completed for mod: fancymenu
+[10:39:02] [Render thread/INFO]: [STDOUT]: [KONKRETE] Running PostLoadingEvents for mod: drippyloadingscreen
+[10:39:03] [Render thread/INFO]: [STDOUT]: [KONKRETE] PostLoadingEvents completed for mod: drippyloadingscreen
+[10:39:03] [Render thread/INFO]: Mixing client.MixinConnectScreen from nochatreports.mixins.json into net.minecraft.class_412
+[10:39:03] [Render thread/INFO]: This line is printed by an example mod mixin!
+[10:39:03] [Render thread/INFO]: This makes sure Expanded Delight mixins are loaded
+[10:39:03] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[10:39:03] [Render thread/INFO]: [STDOUT]: [FANCYMENU] Custom minecraft icon successfully loaded!
+[10:39:03] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\settings.json5" was read.
+[10:39:03] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[10:39:03] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\surface_rules\end_surface_rules.json5" was read.
+[10:39:03] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[10:39:03] [Render thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[10:39:03] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from nochatreports.mixins.json into net.minecraft.class_7591
+[10:39:03] [Render thread/WARN]: Method overwrite conflict for getChunks in languagereload.mixins.json:ClientChunkManagerAccessor from mod languagereload, previously written by me.cominixo.betterf3.mixin.chunk.ClientChunkManagerMixin. Skipping method.
+[10:39:03] [Render thread/INFO]: Mixing client.MixinOnlineServerEntry from nochatreports.mixins.json into net.minecraft.class_4267$class_4270
+[10:39:03] [Render thread/INFO]: Renaming synthetic method lambda$onRender$0()Ljava/util/ArrayList; to md2aeb5f$lambda$onRender$0$1 in nochatreports.mixins.json:client.MixinOnlineServerEntry from mod nochatreports
+[10:39:03] [Render thread/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[10:39:03] [Render thread/INFO]: Mixing client.MixinPlayerEntry from nochatreports.mixins.json into net.minecraft.class_5519
+[10:39:03] [Render thread/INFO]: Renaming synthetic method lambda$onConstructed$1(Lnet/minecraft/class_4185;)V to md2aeb5f$lambda$onConstructed$1$0 in nochatreports.mixins.json:client.MixinPlayerEntry from mod nochatreports
+[10:39:03] [Render thread/INFO]: Renaming synthetic method lambda$onConstructed$0(Lnet/minecraft/class_4185;)V to md2aeb5f$lambda$onConstructed$0$1 in nochatreports.mixins.json:client.MixinPlayerEntry from mod nochatreports
+[10:39:03] [Render thread/INFO]: Mixing client.MixinClientTelemetryManager from nochatreports.mixins.json into net.minecraft.class_6628
+[10:39:03] [Render thread/INFO]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.class_3324
+[10:39:03] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on stonecutter_recipe_tags.mixins.json:PlayerManagerMixin from mod stonecutter_recipe_tags::handler$gma000$stonecutterRecipeTags$afterSyncTagsOnPlayerConnect exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[10:39:03] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on stonecutter_recipe_tags.mixins.json:PlayerManagerMixin from mod stonecutter_recipe_tags::handler$gma000$stonecutterRecipeTags$afterSyncTagsOnDataPacksReloaded exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[10:39:03] [Render thread/INFO]: Mixing client.MixinRealmsConnect from nochatreports.mixins.json into net.minecraft.class_4902
+[10:39:04] [Render thread/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[10:39:04] [Render thread/WARN]: Method overwrite conflict for getChunks in languagereload.mixins.json:ClientChunkMapAccessor from mod languagereload, previously written by me.cominixo.betterf3.mixin.chunk.ClientChunkMapMixin. Skipping method.
+[10:39:04] [Render thread/WARN]: @Redirect conflict. Skipping mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixSidewaysInnerFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000, already redirected by mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixBackwardUpFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000
+[10:39:04] [Render thread/INFO]: Mixing client.MixinServerData from nochatreports.mixins.json into net.minecraft.class_642
+[10:39:04] [Render thread/WARN]: @Final field field_25883:Lnet/minecraft/class_4970$class_4973; in charm.mixins.json:more_portal_frames.AddValidPortalFrameBlocksMixin from mod charm should be final
+[10:39:04] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from nochatreports.mixins.json into net.minecraft.class_404
+[10:39:04] [Render thread/INFO]: Mixing client.MixinServerStatusPinger$1 from nochatreports.mixins.json into net.minecraft.class_644$1
+[10:39:04] [Render thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[10:39:04] [Render thread/INFO]: Loaded values for 15 compatible attributes.
+[10:39:04] [Render thread/INFO]: Loaded 15 values from config.
+[10:39:04] [Render thread/INFO]: Saving config file. 15 entries.
+[10:39:04] [Render thread/INFO]: Applying changes for 15 attributes.
+[10:39:04] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[10:39:04] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\end-biomes.json5" was read.
+[10:39:04] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\nether-biomes.json5" was read.
+[10:39:04] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\growing-patterns.json5" was read.
+[10:39:04] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\trades.json5" was read.
+[10:39:04] [Render thread/INFO]: "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\biomepedia.json5" was read.
+[10:39:04] [Render thread/INFO]: Created compressed zip back up for "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg" in "C:\Users\tripl\AppData\Roaming\PrismLauncher\instances\Better MC [FABRIC] 1.19.2\minecraft\config\byg\backups\last_working_configs_backup.zip"
+[10:39:04] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[10:39:04] [Render thread/INFO]: BYG: Added tillables!
+[10:39:04] [Render thread/INFO]: BYG: Added Flammables!
+[10:39:04] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[10:39:04] [Render thread/INFO]: BYG: Added strippable Blocks...
+[10:39:04] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[10:39:04] [Render thread/INFO]: [STDOUT]: (MidnightLib) Player hats successfully loaded!
+[10:39:04] [Render thread/INFO]: [STDOUT]: [FANCYMENU] Custom minecraft icon successfully loaded!
+[10:39:04] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[10:39:06] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[10:39:06] [Render thread/INFO]: Xaero's Minimap: Open Parties And Claims found!
+[10:39:06] [Render thread/INFO]: No Optifine!
+[10:39:06] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[10:39:06] [Render thread/INFO]: [STDOUT]: InvGUI Initialized
+[10:39:06] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[10:39:06] [Render thread/INFO]: New world map region cache hash code: 2055999136
+[10:39:06] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[10:39:06] [Render thread/INFO]: Xaero's WorldMap Mod: Open Parties And Claims found!
+[10:39:06] [Render thread/INFO]: No Optifine!
+[10:39:06] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[10:39:06] [Render thread/INFO]: Reloading sound engine..
+[10:39:06] [Render thread/INFO]: Early sound engine reload! Skipping MC sound registration and Forge event hooks!
+[10:39:06] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[10:39:06] [Render thread/INFO]: Sound engine started
+[10:39:06] [Render thread/INFO]: Sounds reloaded early, because MC sound manager already loaded!
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'endgoblintraders:mystery_item#inventory' referenced from: endgoblintraders:mystery_item#inventory: java.io.FileNotFoundException: endgoblintraders:models/item/mystery_item.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_twig' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_twig: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_twig.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_brass' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_brass: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_brass.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_cryptic' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_cryptic: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_cryptic.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_copper' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_copper: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_copper.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_oxidized' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_oxidized: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_oxidized.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_gold' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_gold: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_gold.json
+[10:39:10] [Worker-Main-3/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_glowstone' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_glowstone: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_glowstone.json
+[10:39:10] [Render thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[10:39:16] [Render thread/INFO]: This line is printed by an example mod mixin!
+[10:39:16] [Render thread/INFO]: This makes sure Expanded Delight mixins are loaded
+[10:39:18] [Worker-Main-6/ERROR]: Using missing texture, file betternether:textures/block/nether_reed_stem_side.png not found
+[10:39:18] [Worker-Main-6/ERROR]: Using missing texture, file buzzier_bees:textures/block/soul_candle_lit.png not found
+[10:39:18] [Worker-Main-2/ERROR]: Using missing texture, file supplementaries:textures/items/sconce_nether_brass.png not found
+[10:39:18] [Worker-Main-1/ERROR]: Using missing texture, file endgoblintraders:textures/item/enchanted_golden_carrot.png not found
+[10:39:18] [Worker-Main-1/ERROR]: Using missing texture, file minecraft:textures/block/soul_candle.png not found
+[10:39:18] [Worker-Main-7/ERROR]: Using missing texture, file supplementaries:textures/blocks/sconce_nether_brass.png not found
+[10:39:18] [Worker-Main-4/ERROR]: Using missing texture, file buzzier_bees:textures/block/soul_candle.png not found
+[10:39:18] [Worker-Main-4/ERROR]: Using missing texture, file supplementaries:textures/blocks/sconce_fire_nether_brass.png not found
+[10:39:18] [Worker-Main-8/ERROR]: Using missing texture, file minecraft:textures/block/dirts.png not found
+[10:39:18] [Worker-Main-7/ERROR]: Using missing texture, file bountiful:textures/item/decree.png not found
+[10:39:20] [Worker-Main-4/WARN]: Unused frames in sprite gofish:item/galaxy_starfish: [5, 6, 7]
+[10:39:20] [Render thread/WARN]: getErrorETFTexture() was called, investigate this if called too much
+[10:39:20] [Render thread/INFO]: emissive suffixes loaded: {_e}
+[10:39:20] [Render thread/INFO]: emissive suffixes loaded: {_e}
+[10:39:20] [Render thread/INFO]: Sound engine reload blocked to play sounds in loading screen!
+[10:39:20] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/blocks.png
+[10:39:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/signs.png
+[10:39:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/banner_patterns.png
+[10:39:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/shield_patterns.png
+[10:39:20] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/chest.png
+[10:39:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/beds.png
+[10:39:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:39:20] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/shulker_boxes.png
+[10:39:27] [Render thread/INFO]: [citresewn] Linking baked models to item CITs...
+[10:39:29] [Render thread/INFO]: Yanking Minecraft Assets
+[10:39:29] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10:39:29] [Render thread/WARN]: Shader rendertype_entity_corrupted could not find uniform named ColorModulator in the specified shader program.
+[10:39:29] [Render thread/WARN]: Shader rendertype_entity_corrupted could not find uniform named FogStart in the specified shader program.
+[10:39:29] [Render thread/WARN]: Shader rendertype_entity_corrupted could not find uniform named FogEnd in the specified shader program.
+[10:39:29] [Render thread/WARN]: Shader rendertype_entity_corrupted could not find uniform named FogColor in the specified shader program.
+[10:39:29] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[10:39:29] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/particles.png
+[10:39:29] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/paintings.png-atlas
+[10:39:29] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/paintings.png
+[10:39:29] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:39:29] [Render thread/INFO]: [STDOUT]: minecraft:textures/atlas/mob_effects.png
+[10:39:29] [Render thread/INFO]: Reloading grave model (client)
+[10:39:29] [Render thread/INFO]: Reloading dimension name overrides for grave GUI
+[10:39:29] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 0 jsons
+[10:39:29] [Render thread/INFO]: Not reloading resource pack-based books as client world is missing
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/No Orange Grass/grass.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/No Orange Grass/readme.txt, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/Orange Oak Taiga Leaves+Vines/foliage.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/colormap/Orange Oak Taiga Leaves+Vines/readme.txt, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_axe.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_boots.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_chestplate.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_helmet.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_hoe.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_leggings.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_pickaxe.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_shovel.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_sword.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/pack.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/cool netherrite/readme.txt, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_boots.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_chestplate.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_helmet.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_leggings.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/models/armor/cool netherite/netherite_layer_1.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/models/armor/cool netherite/netherite_layer_2.png, ignoring
+[10:39:29] [Render thread/WARN]: Invalid path in datapack: minecraft:textures/models/armor/cool netherite/readme.txt, ignoring
+[10:39:29] [Render thread/ERROR]: Non [a-z0-9/._-] character in path of location: byg:textures/block/bulbis/crafting_table_top .png
+[10:39:29] [Render thread/ERROR]: Non [a-z0-9/._-] character in path of location: betterend:textures/item/thermal fungus.png
+[10:39:29] [Render thread/WARN]: Shader illuminations:jeb could not find sampler named Sampler1 in the specified shader program.
+[10:39:29] [Render thread/WARN]: Shader illuminations:jeb could not find sampler named Sampler2 in the specified shader program.
+[10:39:29] [Render thread/INFO]: Painting transparency set to: true
+[10:39:29] [Render thread/INFO]: Item Frame transparency set to: true
+[10:39:29] [Render thread/INFO]: Beacon Beam transparency set to: false
+[10:39:29] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[10:39:29] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[10:39:29] [Render thread/INFO]: This line is printed by an example mod mixin!
+[10:39:29] [Render thread/INFO]: This makes sure Expanded Delight mixins are loaded
+[10:39:31] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[10:39:31] [Render thread/INFO]: This line is printed by an example mod mixin!
+[10:39:31] [Render thread/INFO]: This makes sure Expanded Delight mixins are loaded
+[10:39:31] [Render thread/INFO]: Reloading sounds!
+[10:39:31] [Render thread/INFO]: This line is printed by an example mod mixin!
+[10:39:31] [Render thread/INFO]: This makes sure Expanded Delight mixins are loaded
+[10:39:32] [Render thread/INFO]: This line is printed by an example mod mixin!
+[10:39:32] [Render thread/INFO]: This makes sure Expanded Delight mixins are loaded
+[10:39:32] [Render thread/INFO]: Running post-reload tasks..
+[10:39:32] [Render thread/INFO]: Reloading sound engine..
+[10:39:32] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[10:39:32] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10:39:32] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
+[10:39:32] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[10:39:32] [Render thread/INFO]: Sound engine started
+[10:39:37] [Render thread/INFO]: Stopping!
+[10:39:37] [Render thread/INFO]: [STDOUT]: Saving config results
+[10:39:37] [Render thread/INFO]: Saved 'betterstats' config.
+[10:39:37] [Render thread/INFO]: emissive suffixes loaded: {_e}
